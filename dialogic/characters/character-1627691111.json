@@ -1,0 +1,24 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1627691111.json",
+	"mirror_portraits": false,
+	"name": "MS Paint Michael",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/mspm_portrait.png"
+		},
+		{
+			"name": "flipv",
+			"path": "res://Assets/mspm_portrait_flipv.png"
+		}
+	],
+	"scale": 100
+}

@@ -1,0 +1,120 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Assets/rotate_puzzle.png" type="Texture" id=1]
+[ext_resource path="res://Assets/rotate_puzzle_background.png" type="Texture" id=2]
+[ext_resource path="res://Foobar/rotate_puzzle.gd" type="Script" id=3]
+[ext_resource path="res://Assets/pistachio_bag.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 5.98509, 244.467 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 195.624, 5.32245 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 227.578, 5.32245 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 62.2729, 10.2587 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 60.1606, 9.85361 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 11.7274, 72.9623 )
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 8.84708, 46.3065 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 60.9059, 10.2659 )
+
+[sub_resource type="RectangleShape2D" id=10]
+extents = Vector2( 7.13562, 231.878 )
+
+[sub_resource type="RectangleShape2D" id=11]
+extents = Vector2( 38.0258, 22.6683 )
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 37.2626
+
+[node name="root_rotate_puzzle" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="background" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="puzzle" type="Sprite" parent="."]
+position = Vector2( 272.615, 293.997 )
+texture = ExtResource( 1 )
+
+[node name="walls" type="StaticBody2D" parent="puzzle"]
+position = Vector2( -272.615, -293.997 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 33.4513, 296.907 )
+shape = SubResource( 2 )
+
+[node name="collisionShape2" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 503.512, 295.225 )
+shape = SubResource( 2 )
+
+[node name="collisionShape3" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 236.948, 534.04 )
+shape = SubResource( 3 )
+
+[node name="collisionShape4" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 266.38, 58.0924 )
+shape = SubResource( 4 )
+
+[node name="collisionShape5" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 98.873, 150.215 )
+shape = SubResource( 5 )
+
+[node name="collisionShape6" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 438.284, 267.594 )
+shape = SubResource( 6 )
+
+[node name="collisionShape7" type="CollisionShape2D" parent="puzzle/walls"]
+position = Vector2( 386.225, 455.139 )
+shape = SubResource( 7 )
+
+[node name="red_walls" type="StaticBody2D" parent="puzzle"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="puzzle/red_walls"]
+position = Vector2( 116.491, -83.0918 )
+shape = SubResource( 8 )
+
+[node name="collisionShape2" type="CollisionShape2D" parent="puzzle/red_walls"]
+position = Vector2( -173.169, 99.1138 )
+shape = SubResource( 9 )
+
+[node name="green_walls" type="StaticBody2D" parent="puzzle"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="puzzle/green_walls"]
+position = Vector2( 11.5817, 3.5636 )
+shape = SubResource( 10 )
+
+[node name="finish" type="Area2D" parent="puzzle"]
+position = Vector2( -272.615, -293.997 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="puzzle/finish"]
+position = Vector2( 465.027, 563.102 )
+shape = SubResource( 11 )
+
+[node name="fixed_point" type="Node2D" parent="."]
+position = Vector2( 272.578, 293.99 )
+
+[node name="pistachio_bag" type="KinematicBody2D" parent="fixed_point"]
+position = Vector2( -178.406, -192.658 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="bag" type="Sprite" parent="fixed_point/pistachio_bag"]
+scale = Vector2( 0.607143, 0.605932 )
+texture = ExtResource( 4 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="fixed_point/pistachio_bag"]
+shape = SubResource( 1 )

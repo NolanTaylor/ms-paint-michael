@@ -1,0 +1,489 @@
+[gd_scene load_steps=38 format=2]
+
+[ext_resource path="res://hotel.gd" type="Script" id=1]
+[ext_resource path="res://Assets/krita_kylie.png" type="Texture" id=2]
+[ext_resource path="res://Assets/elevator.png" type="Texture" id=3]
+[ext_resource path="res://Assets/floor_0_lobby.png" type="Texture" id=4]
+[ext_resource path="res://MSPM/root_mspm.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Foobar/popup.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Assets/elevator_keys.png" type="Texture" id=7]
+[ext_resource path="res://Foobar/camera.gd" type="Script" id=8]
+[ext_resource path="res://Assets/blast.png" type="Texture" id=9]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 80, 76 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 2 )
+region = Rect2( 80, 0, 80, 76 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 2 )
+region = Rect2( 160, 0, 80, 76 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 2 )
+region = Rect2( 240, 0, 80, 76 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "idle",
+"speed": 2.0
+} ]
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 3 )
+region = Rect2( 273, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 3 )
+region = Rect2( 546, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 3 )
+region = Rect2( 819, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 3 )
+region = Rect2( 1092, 0, 273, 246 )
+
+[sub_resource type="SpriteFrames" id=11]
+animations = [ {
+"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 10 ), SubResource( 10 ) ],
+"loop": false,
+"name": "open",
+"speed": 4.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=12]
+extents = Vector2( 36.512, 110.657 )
+
+[sub_resource type="RectangleShape2D" id=13]
+extents = Vector2( 34.5898, 108.143 )
+
+[sub_resource type="RectangleShape2D" id=14]
+extents = Vector2( 23.1178, 76.2913 )
+
+[sub_resource type="RectangleShape2D" id=15]
+extents = Vector2( 19.9537, 101.947 )
+
+[sub_resource type="RectangleShape2D" id=16]
+extents = Vector2( 40.577, 103.176 )
+
+[sub_resource type="RectangleShape2D" id=17]
+extents = Vector2( 27.6316, 103.293 )
+
+[sub_resource type="RectangleShape2D" id=18]
+extents = Vector2( 50.6776, 45.0317 )
+
+[sub_resource type="RectangleShape2D" id=19]
+extents = Vector2( 97.6227, 214.269 )
+
+[sub_resource type="RectangleShape2D" id=25]
+extents = Vector2( 103.789, 114.879 )
+
+[sub_resource type="RectangleShape2D" id=26]
+extents = Vector2( 39.9799, 89.1941 )
+
+[sub_resource type="RectangleShape2D" id=27]
+extents = Vector2( 35.7279, 101.899 )
+
+[sub_resource type="RectangleShape2D" id=28]
+extents = Vector2( 41.5197, 93.8542 )
+
+[sub_resource type="RectangleShape2D" id=20]
+extents = Vector2( 8.50597, 299.37 )
+
+[sub_resource type="RectangleShape2D" id=21]
+extents = Vector2( 8.50597, 285.786 )
+
+[sub_resource type="RectangleShape2D" id=22]
+extents = Vector2( 9.4859, 268.34 )
+
+[sub_resource type="RectangleShape2D" id=23]
+extents = Vector2( 6.67487, 270.799 )
+
+[sub_resource type="RectangleShape2D" id=24]
+extents = Vector2( 6.34021, 277.89 )
+
+[node name="root_hotel" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="canvasLayer" type="CanvasLayer" parent="."]
+
+[node name="modLayer" type="CanvasLayer" parent="."]
+
+[node name="colorRect" type="ColorRect" parent="modLayer"]
+margin_left = -1940.0
+margin_top = -2676.0
+margin_right = 2189.0
+margin_bottom = 844.0
+mouse_filter = 2
+color = Color( 1, 1, 1, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="fade" type="ColorRect" parent="modLayer"]
+margin_left = -1949.0
+margin_top = -2680.0
+margin_right = 2186.0
+margin_bottom = 643.0
+mouse_filter = 2
+color = Color( 0, 0, 0, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="camera" type="Camera2D" parent="."]
+anchor_mode = 0
+smoothing_enabled = true
+smoothing_speed = 4.0
+script = ExtResource( 8 )
+
+[node name="hotel" type="Sprite" parent="."]
+position = Vector2( -1330.25, -2683.78 )
+texture = ExtResource( 4 )
+centered = false
+
+[node name="krita_kylie" type="AnimatedSprite" parent="."]
+position = Vector2( 553.393, 457.289 )
+scale = Vector2( 1.2, 1.2 )
+frames = SubResource( 5 )
+animation = "idle"
+frame = 1
+playing = true
+
+[node name="blast" type="Sprite" parent="."]
+visible = false
+position = Vector2( 1652, -952 )
+texture = ExtResource( 9 )
+
+[node name="particles0" type="CPUParticles2D" parent="blast"]
+visible = false
+scale = Vector2( 8, 8 )
+amount = 32
+lifetime = 2.0
+direction = Vector2( 0, 0 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 8.0
+color = Color( 1, 0, 0, 1 )
+
+[node name="particles1" type="CPUParticles2D" parent="blast"]
+visible = false
+scale = Vector2( 8, 8 )
+amount = 32
+lifetime = 2.0
+direction = Vector2( 0, 0 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 8.0
+color = Color( 0, 1, 0, 1 )
+
+[node name="particles2" type="CPUParticles2D" parent="blast"]
+visible = false
+scale = Vector2( 8, 8 )
+amount = 32
+lifetime = 2.0
+direction = Vector2( 0, 0 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 8.0
+color = Color( 0, 0, 1, 1 )
+
+[node name="elevator1b" type="AnimatedSprite" parent="."]
+position = Vector2( 815.839, 1057.05 )
+z_index = 1
+frames = SubResource( 11 )
+animation = "open"
+
+[node name="pos" type="Node2D" parent="elevator1b"]
+position = Vector2( 0, 16 )
+
+[node name="keys" type="Sprite" parent="elevator1b"]
+visible = false
+position = Vector2( 38.6326, -190.431 )
+texture = ExtResource( 7 )
+
+[node name="elevator0" type="AnimatedSprite" parent="."]
+position = Vector2( 815.839, 463.052 )
+z_index = 1
+frames = SubResource( 11 )
+animation = "open"
+
+[node name="pos" type="Node2D" parent="elevator0"]
+position = Vector2( 0, 16 )
+
+[node name="keys" type="Sprite" parent="elevator0"]
+visible = false
+position = Vector2( 38.6326, -190.431 )
+texture = ExtResource( 7 )
+
+[node name="elevator1" type="AnimatedSprite" parent="."]
+position = Vector2( 815.839, -134.948 )
+z_index = 1
+frames = SubResource( 11 )
+animation = "open"
+
+[node name="pos" type="Node2D" parent="elevator1"]
+position = Vector2( 0, 16 )
+
+[node name="keys" type="Sprite" parent="elevator1"]
+visible = false
+position = Vector2( 38.6326, -190.431 )
+texture = ExtResource( 7 )
+
+[node name="elevator2" type="AnimatedSprite" parent="."]
+position = Vector2( 815.839, -731.948 )
+z_index = 1
+frames = SubResource( 11 )
+animation = "open"
+
+[node name="pos" type="Node2D" parent="elevator2"]
+position = Vector2( 0, 16 )
+
+[node name="keys" type="Sprite" parent="elevator2"]
+visible = false
+position = Vector2( 38.6326, -190.431 )
+texture = ExtResource( 7 )
+
+[node name="popups" type="Node" parent="."]
+
+[node name="elevator1b" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 717.686, 968.167 )
+
+[node name="area" type="Area2D" parent="popups/elevator1b"]
+position = Vector2( 49.9467, 45.1899 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/elevator1b/area"]
+position = Vector2( 80.8661, 48.7575 )
+shape = SubResource( 12 )
+
+[node name="elevator0" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 717.686, 377.167 )
+
+[node name="area" type="Area2D" parent="popups/elevator0"]
+position = Vector2( 49.9467, 45.1899 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/elevator0/area"]
+position = Vector2( 80.8661, 48.7575 )
+shape = SubResource( 12 )
+
+[node name="elevator1" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 715.101, -225.318 )
+
+[node name="area" type="Area2D" parent="popups/elevator1"]
+position = Vector2( 130.339, 99.2258 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/elevator1/area"]
+shape = SubResource( 13 )
+
+[node name="elevator2" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 715.101, -821.318 )
+
+[node name="area" type="Area2D" parent="popups/elevator2"]
+position = Vector2( 130.339, 99.2258 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/elevator2/area"]
+shape = SubResource( 13 )
+
+[node name="krita_kylie" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 482.121, 385.454 )
+scale = Vector2( 1.2, 1.2 )
+
+[node name="area" type="Area2D" parent="popups/krita_kylie"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/krita_kylie/area"]
+position = Vector2( 57.4783, 81.2625 )
+shape = SubResource( 14 )
+
+[node name="room_202" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 74.3356, -886.984 )
+
+[node name="pos" type="Node2D" parent="popups/room_202"]
+position = Vector2( 1141.84, 160.351 )
+
+[node name="area" type="Area2D" parent="popups/room_202"]
+position = Vector2( 8.85339, 163.381 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_202/area"]
+shape = SubResource( 15 )
+
+[node name="floor_2" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1212.04, -887.984 )
+
+[node name="pos" type="Node2D" parent="popups/floor_2"]
+position = Vector2( -1130.15, 162.53 )
+
+[node name="area" type="Area2D" parent="popups/floor_2"]
+position = Vector2( -0.224854, 162.087 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/floor_2/area"]
+shape = SubResource( 16 )
+
+[node name="bathroom" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1965.32, -894.462 )
+
+[node name="area" type="Area2D" parent="popups/bathroom"]
+position = Vector2( 0.00012207, 159.515 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/bathroom/area"]
+shape = SubResource( 17 )
+
+[node name="bed" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1569.77, -776.876 )
+
+[node name="area" type="Area2D" parent="popups/bed"]
+position = Vector2( -27.299, 99.2258 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/bed/area"]
+shape = SubResource( 18 )
+
+[node name="blast" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1842, -1077.23 )
+active = false
+
+[node name="area" type="Area2D" parent="popups/blast"]
+position = Vector2( -146.151, 228.046 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/blast/area"]
+shape = SubResource( 19 )
+
+[node name="rotate_puzzle" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1486.76, 892.003 )
+
+[node name="area" type="Area2D" parent="popups/rotate_puzzle"]
+position = Vector2( -200.013, 157.153 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/rotate_puzzle/area"]
+shape = SubResource( 25 )
+
+[node name="sketchy_door" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1760.02, 909.194 )
+
+[node name="pos" type="Node2D" parent="popups/sketchy_door"]
+position = Vector2( 1336.04, -1050.72 )
+
+[node name="area" type="Area2D" parent="popups/sketchy_door"]
+position = Vector2( 3, 157 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/sketchy_door/area"]
+shape = SubResource( 26 )
+
+[node name="door_106" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2344.7, -288.82 )
+
+[node name="pos" type="Node2D" parent="popups/door_106"]
+position = Vector2( -3176.27, 188.314 )
+
+[node name="area" type="Area2D" parent="popups/door_106"]
+position = Vector2( 0, 156 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_106/area"]
+shape = SubResource( 27 )
+
+[node name="room_106" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -827.768, -255.764 )
+
+[node name="pos" type="Node2D" parent="popups/room_106"]
+position = Vector2( 3172.65, 123.79 )
+
+[node name="area" type="Area2D" parent="popups/room_106"]
+position = Vector2( 0, 155 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_106/area"]
+shape = SubResource( 28 )
+
+[node name="walls" type="StaticBody2D" parent="."]
+
+[node name="collisionShape" type="CollisionShape2D" parent="walls"]
+position = Vector2( -0.601456, 301.406 )
+shape = SubResource( 20 )
+
+[node name="collisionShape2" type="CollisionShape2D" parent="walls"]
+position = Vector2( 1007.29, 300.515 )
+shape = SubResource( 20 )
+
+[node name="collisionShape3" type="CollisionShape2D" parent="walls"]
+position = Vector2( 996.755, -296.944 )
+shape = SubResource( 21 )
+
+[node name="collisionShape4" type="CollisionShape2D" parent="walls"]
+position = Vector2( 988.28, -896.6 )
+shape = SubResource( 21 )
+
+[node name="collisionShape5" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2129.32, -910.373 )
+shape = SubResource( 21 )
+
+[node name="collisionShape6" type="CollisionShape2D" parent="walls"]
+position = Vector2( 1045.49, -897.658 )
+shape = SubResource( 21 )
+
+[node name="red_walls" type="StaticBody2D" parent="."]
+
+[node name="collisionShape" type="CollisionShape2D" parent="red_walls"]
+position = Vector2( 1006.49, 902.662 )
+shape = SubResource( 22 )
+
+[node name="green_walls" type="StaticBody2D" parent="."]
+
+[node name="collisionShape" type="CollisionShape2D" parent="green_walls"]
+position = Vector2( -271.222, -284.087 )
+shape = SubResource( 23 )
+
+[node name="blue_walls" type="StaticBody2D" parent="."]
+
+[node name="collisionShape" type="CollisionShape2D" parent="blue_walls"]
+position = Vector2( -282.4, -891.606 )
+shape = SubResource( 24 )
+
+[node name="yellow_walls" type="StaticBody2D" parent="."]
+
+[node name="teal_walls" type="StaticBody2D" parent="."]
+
+[node name="purple_walls" type="StaticBody2D" parent="."]
+
+[node name="root_mspm" parent="." instance=ExtResource( 5 )]
+position = Vector2( 213.255, 477.722 )
+z_index = 1
+
+[connection signal="frame_changed" from="elevator1b" to="." method="_on_elevator1b_frame_changed"]
+[connection signal="frame_changed" from="elevator0" to="." method="_on_elevator0_frame_changed"]
+[connection signal="frame_changed" from="elevator1" to="." method="_on_elevator1_frame_changed"]
+[connection signal="frame_changed" from="elevator2" to="." method="_on_elevator2_frame_changed"]

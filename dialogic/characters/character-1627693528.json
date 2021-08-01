@@ -1,0 +1,24 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1627693528.json",
+	"mirror_portraits": false,
+	"name": "Krita Kylie",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -190,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/kylie_portrait.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://Assets/kylie_portrait_sad.png"
+		}
+	],
+	"scale": 100
+}

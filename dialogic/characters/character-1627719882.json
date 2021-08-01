@@ -1,0 +1,32 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1627719882.json",
+	"mirror_portraits": false,
+	"name": "Pirated Photoshop Peter",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/peter_portrait.png"
+		},
+		{
+			"name": "Think",
+			"path": "res://Assets/peter_portrait_think.png"
+		},
+		{
+			"name": "Skeptic",
+			"path": "res://Assets/peter_portrait_skeptic.png"
+		},
+		{
+			"name": "Point",
+			"path": "res://Assets/peter_portrait_point.png"
+		}
+	],
+	"scale": 100
+}

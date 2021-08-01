@@ -1,0 +1,28 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1627718828.json",
+	"mirror_portraits": false,
+	"name": "Photoshop Phil",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/phil_portrait.png"
+		},
+		{
+			"name": "Cough",
+			"path": "res://Assets/phil_portrait_cough.png"
+		},
+		{
+			"name": "Evil",
+			"path": "res://Assets/phil_portrait_evil.png"
+		}
+	],
+	"scale": 100
+}

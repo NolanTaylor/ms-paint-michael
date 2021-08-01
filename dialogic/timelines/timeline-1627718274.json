@@ -1,0 +1,269 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i should get ready for bed\ntime to change clothes\nbut i don't wear clothes\nmaybe i should brush my teeth\nbut i don't have teeth\ni guess i'll just fall asleep then"
+		},
+		{
+			"emit_signal": "blast",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 3
+		},
+		{
+			"action": "join",
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHA"
+		},
+		{
+			"action": "join",
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHAHAHA"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I am the EVIL Photoshop Phil!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And I am the EVILER Pirated PHotoshop Peter!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "(not to imply that i pirated photoshop)"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "I definitely..."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "didn't pirate photoshop"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "The name is simply unrelated"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "ok"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "AHEM!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Anyways!!\nWe are here to announce our plans of WORLD DOMINATION!!1!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAH"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BWAHAHAHAHA"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Starting with this very hotel!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes!! First this hotel! THen the WORLD!!!1"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "And NOBODY will be able to stop us!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "ok"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Point",
+			"text": "NOt even YOU!!1!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAAHAHAH!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHAHAAH"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "We will be waiting on the roof of this hotel\nWith our incredible DOOM LAser!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of DDOOM!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "ok"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "In case you wanted to stop us"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "Which you wouldn't be able to do"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Because we can't be stopped"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "So you shouldn't even bother trying"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHA"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BWAHAHAHAHAHHA"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "ok"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 0.5
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_003"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i should probably report this to the front desk"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627718274.json",
+		"name": "bed_1"
+	}
+}
