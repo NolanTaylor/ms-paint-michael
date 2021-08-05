@@ -1,0 +1,149 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi krita kylie"
+		},
+		{
+			"action": "join",
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Sad",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "there's a pile of pistachio shells blocking room 304"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "oh?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "not just a pile, krita kylie\na mountain, krita kylie\nkrita kylie, this is the literal everest of pistachio piles, krita kylie\nan offering worthy of the pistachio gods themselves krita kylie\nit makes you wonder...\nwhat dark secrets lie behind that door\nis there a being alive that could consume such a vast quantity of pistachios?\nwhat would such a monstrous being look like?\nwhat do you think krita kylie?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I don't think"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "you're right. my bad"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "you couldn't think\nafter all. such an amount of pistachio shells is unthinkable\nwhat do you feel krita kylie?\nwhat deep-seated emotions does this image stir in you?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I don't feel either"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "that's because you haven't seen it krita kylie\nyou need to see it to feel it krita kylie"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I want some pistachios"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i could get you some"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I'm allergic"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "well if you've ever considered exposure therapy..."
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "opportunity is not a lengthy visitor\nor maybe it is...\npistachio shells don't really go anywhere"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'll think about it"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Thanks Microsoft Paint Michael"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627860843.json",
+		"name": "kylie_pistachio"
+	}
+}

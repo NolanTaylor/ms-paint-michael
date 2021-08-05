@@ -1,0 +1,113 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "WELCOME!!!!!"
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi aseprite alex"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "TO THE NUT ZONE!!!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "do you know graphicgale gareth?"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Gosh",
+			"text": "DO I KNOW GRAPHICSGALE GARETH!?!?!?!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "OF COURSE I KNOW GRAPHICSGALE GARETH!!!!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "WE MADE CASUAL PLANS TO KILL GOD THIS SUNDAY!!!!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "did he say anything about a [rainbow freq=0.2 sat=10 val=20]Perfect Protein Shake[/rainbow]?"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Gosh",
+			"text": "YES"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "\"SHAKES [color=#00FF00]2[/color] AND [color=#00FF00]6[/color] SHARE EXACTLY TWO [color=#FF0000]INGREDIENTS[/color]\"\n\"[color=#FF0000]SCREAMS OF THE UNHOLY[/color] ARE NOT [color=#0000FF]TASTY[/color]\"\n\"[color=#FF0000]E-GIRL BATHWATER[/color] HAS pH OF 7 (neither [color=#0000FF]Acidic[/color] nor [color=#0000FF]Alkaline[/color])\"\n\"SHAKES [color=#00FF00]6[/color] AND [color=#00FF00]8[/color] EXCLUSIVELY SHARE THE [color=#FF0000]BLOOD OF A VIRGIN[/color] (they share no other [color=#FF0000]ingredients[/color])\"\n\"SHAKES [color=#00FF00]1[/color] AND [color=#00FF00]5[/color] ARE [color=#0000FF]DELICIOUS[/color] BUT [color=#0000FF]POISONOUS[/color]\"\n\"SHAKES [color=#00FF00]7[/color] AND [color=#00FF00]10[/color] HAVE ALL FIVE [color=#FF0000]INGREDIENTS[/color] BETWEEN THEM\""
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "THAT IS ALL!!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "cool thanks"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628025663.json",
+		"name": "alex_clues"
+	}
+}

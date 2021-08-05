@@ -1,0 +1,119 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "WELCOME!!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "TO THE NUT ZONE!!!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I AM ASEPRITE ALEX!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi aseprite alex, i'm microsoft paint michael\ndid you know there's a magic space portal in your bathroom?"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Gosh",
+			"text": "OH MY GOSH!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "I DID KNOW THAT!!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "FOR I MADE IT!!!!\nTHAT IS THE POWER OF PISTACHIOS!!"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "WOULD YOU LIKE A MAGIC SPACE PORTAL FOR YOUR BATHROOM!?!??"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "that'd be cool"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "JUST GIVE ME A BAG OF PISTACHIOS!!! I WILL MAKE THE PORTAL FOR YOU!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "what about the pile of pistachios you're sitting on now"
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "THESE ARE MINE!\nYOU MUST BRING YOUR OWN!!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "oh okay. neat"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627979654.json",
+		"name": "alex_1"
+	}
+}

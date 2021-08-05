@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=107 format=2]
 
 [ext_resource path="res://hotel.gd" type="Script" id=1]
 [ext_resource path="res://Assets/krita_kylie.png" type="Texture" id=2]
@@ -9,6 +9,18 @@
 [ext_resource path="res://Assets/elevator_keys.png" type="Texture" id=7]
 [ext_resource path="res://Foobar/camera.gd" type="Script" id=8]
 [ext_resource path="res://Assets/blast.png" type="Texture" id=9]
+[ext_resource path="res://Assets/pile_of_pistachio_shells.png" type="Texture" id=10]
+[ext_resource path="res://Assets/turvy_walls.png" type="Texture" id=11]
+[ext_resource path="res://Assets/graphicgale_gareth.png" type="Texture" id=12]
+[ext_resource path="res://Assets/aseprite_alex.png" type="Texture" id=13]
+[ext_resource path="res://Assets/gimp_gilbert.png" type="Texture" id=14]
+[ext_resource path="res://Assets/notepad++_natalie.png" type="Texture" id=15]
+[ext_resource path="res://Assets/kylie_shake.png" type="Texture" id=16]
+[ext_resource path="res://Assets/kylie_sad.png" type="Texture" id=17]
+[ext_resource path="res://Assets/flattened_pistachios.png" type="Texture" id=18]
+[ext_resource path="res://Assets/arrows.png" type="Texture" id=19]
+[ext_resource path="res://Assets/yellow_wall.png" type="Texture" id=20]
+[ext_resource path="res://Assets/key.png" type="Texture" id=21]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )
@@ -35,83 +47,299 @@ animations = [ {
 } ]
 
 [sub_resource type="AtlasTexture" id=6]
-atlas = ExtResource( 3 )
-region = Rect2( 0, 0, 273, 246 )
+atlas = ExtResource( 16 )
+region = Rect2( 0, 0, 123, 203 )
 
 [sub_resource type="AtlasTexture" id=7]
-atlas = ExtResource( 3 )
-region = Rect2( 273, 0, 273, 246 )
+atlas = ExtResource( 16 )
+region = Rect2( 123, 0, 123, 203 )
 
 [sub_resource type="AtlasTexture" id=8]
-atlas = ExtResource( 3 )
-region = Rect2( 546, 0, 273, 246 )
+atlas = ExtResource( 16 )
+region = Rect2( 246, 0, 123, 203 )
 
 [sub_resource type="AtlasTexture" id=9]
-atlas = ExtResource( 3 )
-region = Rect2( 819, 0, 273, 246 )
+atlas = ExtResource( 16 )
+region = Rect2( 369, 0, 123, 203 )
 
-[sub_resource type="AtlasTexture" id=10]
-atlas = ExtResource( 3 )
-region = Rect2( 1092, 0, 273, 246 )
-
-[sub_resource type="SpriteFrames" id=11]
+[sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 10 ), SubResource( 10 ) ],
-"loop": false,
-"name": "open",
+"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
+"loop": true,
+"name": "idle",
+"speed": 2.0
+} ]
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 17 )
+region = Rect2( 0, 0, 85, 150 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 17 )
+region = Rect2( 85, 0, 85, 150 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 17 )
+region = Rect2( 170, 0, 85, 150 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 17 )
+region = Rect2( 340, 0, 85, 150 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 17 )
+region = Rect2( 255, 0, 85, 150 )
+
+[sub_resource type="SpriteFrames" id=16]
+animations = [ {
+"frames": [ SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 12 ), SubResource( 14 ), SubResource( 15 ), SubResource( 14 ) ],
+"loop": true,
+"name": "idle",
 "speed": 4.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=12]
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 12 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 12 )
+region = Rect2( 64, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 12 )
+region = Rect2( 128, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 12 )
+region = Rect2( 192, 0, 64, 64 )
+
+[sub_resource type="SpriteFrames" id=21]
+animations = [ {
+"frames": [ SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ) ],
+"loop": true,
+"name": "idle",
+"speed": 2.0
+} ]
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 13 )
+region = Rect2( 0, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 13 )
+region = Rect2( 64, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 13 )
+region = Rect2( 128, 0, 64, 64 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 13 )
+region = Rect2( 192, 0, 64, 64 )
+
+[sub_resource type="SpriteFrames" id=26]
+animations = [ {
+"frames": [ SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ) ],
+"loop": true,
+"name": "idle",
+"speed": 2.0
+} ]
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 14 )
+region = Rect2( 0, 0, 148, 230 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 14 )
+region = Rect2( 148, 0, 148, 230 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 14 )
+region = Rect2( 296, 0, 148, 230 )
+
+[sub_resource type="SpriteFrames" id=30]
+animations = [ {
+"frames": [ SubResource( 27 ), SubResource( 28 ), SubResource( 29 ) ],
+"loop": true,
+"name": "idle",
+"speed": 2.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=31]
+extents = Vector2( 58.7849, 150.699 )
+
+[sub_resource type="RectangleShape2D" id=32]
+extents = Vector2( 223.144, 4.44788 )
+
+[sub_resource type="RectangleShape2D" id=33]
+extents = Vector2( 226.375, 6.08643 )
+
+[sub_resource type="RectangleShape2D" id=34]
+extents = Vector2( 6.24719, 227.201 )
+
+[sub_resource type="RectangleShape2D" id=35]
+extents = Vector2( 5.05026, 225.289 )
+
+[sub_resource type="SegmentShape2D" id=36]
+b = Vector2( 4.22339, 545.204 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 3 )
+region = Rect2( 273, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 3 )
+region = Rect2( 546, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 3 )
+region = Rect2( 819, 0, 273, 246 )
+
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 3 )
+region = Rect2( 1092, 0, 273, 246 )
+
+[sub_resource type="SpriteFrames" id=42]
+animations = [ {
+"frames": [ SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 41 ), SubResource( 41 ) ],
+"loop": false,
+"name": "open",
+"speed": 6.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=43]
 extents = Vector2( 36.512, 110.657 )
 
-[sub_resource type="RectangleShape2D" id=13]
+[sub_resource type="RectangleShape2D" id=44]
 extents = Vector2( 34.5898, 108.143 )
 
-[sub_resource type="RectangleShape2D" id=14]
+[sub_resource type="RectangleShape2D" id=45]
 extents = Vector2( 23.1178, 76.2913 )
 
-[sub_resource type="RectangleShape2D" id=15]
-extents = Vector2( 19.9537, 101.947 )
+[sub_resource type="RectangleShape2D" id=46]
+extents = Vector2( 31.0937, 101.947 )
 
-[sub_resource type="RectangleShape2D" id=16]
-extents = Vector2( 40.577, 103.176 )
+[sub_resource type="RectangleShape2D" id=47]
+extents = Vector2( 25.3531, 103.176 )
 
-[sub_resource type="RectangleShape2D" id=17]
+[sub_resource type="RectangleShape2D" id=48]
 extents = Vector2( 27.6316, 103.293 )
 
-[sub_resource type="RectangleShape2D" id=18]
+[sub_resource type="RectangleShape2D" id=49]
 extents = Vector2( 50.6776, 45.0317 )
 
-[sub_resource type="RectangleShape2D" id=19]
+[sub_resource type="RectangleShape2D" id=50]
 extents = Vector2( 97.6227, 214.269 )
 
-[sub_resource type="RectangleShape2D" id=25]
+[sub_resource type="RectangleShape2D" id=51]
+extents = Vector2( 131.372, 214.269 )
+
+[sub_resource type="RectangleShape2D" id=52]
 extents = Vector2( 103.789, 114.879 )
 
-[sub_resource type="RectangleShape2D" id=26]
+[sub_resource type="RectangleShape2D" id=53]
 extents = Vector2( 39.9799, 89.1941 )
 
-[sub_resource type="RectangleShape2D" id=27]
-extents = Vector2( 35.7279, 101.899 )
+[sub_resource type="RectangleShape2D" id=54]
+extents = Vector2( 32.3198, 101.899 )
 
-[sub_resource type="RectangleShape2D" id=28]
-extents = Vector2( 41.5197, 93.8542 )
+[sub_resource type="RectangleShape2D" id=55]
+extents = Vector2( 31.2972, 93.8542 )
 
-[sub_resource type="RectangleShape2D" id=20]
+[sub_resource type="RectangleShape2D" id=56]
+extents = Vector2( 30.2854, 99.7089 )
+
+[sub_resource type="RectangleShape2D" id=57]
+extents = Vector2( 30.2854, 99.7089 )
+
+[sub_resource type="RectangleShape2D" id=58]
+extents = Vector2( 46.3033, 109.472 )
+
+[sub_resource type="RectangleShape2D" id=59]
+extents = Vector2( 39.9395, 99.0487 )
+
+[sub_resource type="RectangleShape2D" id=60]
+extents = Vector2( 67.8041, 104.628 )
+
+[sub_resource type="RectangleShape2D" id=61]
+extents = Vector2( 26.8474, 72.5632 )
+
+[sub_resource type="RectangleShape2D" id=62]
+extents = Vector2( 139.763, 50.5245 )
+
+[sub_resource type="RectangleShape2D" id=63]
+extents = Vector2( 62.2584, 115.4 )
+
+[sub_resource type="RectangleShape2D" id=64]
+extents = Vector2( 41.4288, 99.1375 )
+
+[sub_resource type="RectangleShape2D" id=65]
+extents = Vector2( 37.8011, 140.025 )
+
+[sub_resource type="RectangleShape2D" id=66]
+extents = Vector2( 32.439, 90.11 )
+
+[sub_resource type="RectangleShape2D" id=67]
+extents = Vector2( 31.9712, 65.4906 )
+
+[sub_resource type="RectangleShape2D" id=68]
+extents = Vector2( 51.818, 106.475 )
+
+[sub_resource type="RectangleShape2D" id=69]
+extents = Vector2( 34.603, 116.333 )
+
+[sub_resource type="RectangleShape2D" id=70]
+extents = Vector2( 33.8827, 117.13 )
+
+[sub_resource type="RectangleShape2D" id=71]
+extents = Vector2( 45.1647, 102.273 )
+
+[sub_resource type="RectangleShape2D" id=72]
+extents = Vector2( 94.9776, 57.8662 )
+
+[sub_resource type="RectangleShape2D" id=73]
+extents = Vector2( 37.7857, 106.873 )
+
+[sub_resource type="RectangleShape2D" id=74]
+extents = Vector2( 38.6082, 102.267 )
+
+[sub_resource type="RectangleShape2D" id=75]
+extents = Vector2( 74.4225, 106.873 )
+
+[sub_resource type="RectangleShape2D" id=76]
+extents = Vector2( 51.0305, 113.596 )
+
+[sub_resource type="RectangleShape2D" id=77]
 extents = Vector2( 8.50597, 299.37 )
 
-[sub_resource type="RectangleShape2D" id=21]
+[sub_resource type="RectangleShape2D" id=78]
 extents = Vector2( 8.50597, 285.786 )
 
-[sub_resource type="RectangleShape2D" id=22]
+[sub_resource type="RectangleShape2D" id=79]
 extents = Vector2( 9.4859, 268.34 )
 
-[sub_resource type="RectangleShape2D" id=23]
+[sub_resource type="RectangleShape2D" id=80]
 extents = Vector2( 6.67487, 270.799 )
 
-[sub_resource type="RectangleShape2D" id=24]
+[sub_resource type="RectangleShape2D" id=81]
+extents = Vector2( 6.67487, 255.287 )
+
+[sub_resource type="RectangleShape2D" id=82]
 extents = Vector2( 6.34021, 277.89 )
+
+[sub_resource type="RectangleShape2D" id=83]
+extents = Vector2( 5.22205, 279.144 )
+
+[sub_resource type="RectangleShape2D" id=84]
+extents = Vector2( 5.22205, 252.517 )
+
+[sub_resource type="RectangleShape2D" id=85]
+extents = Vector2( 7.85229, 270.47 )
 
 [node name="root_hotel" type="Node2D"]
 script = ExtResource( 1 )
@@ -121,10 +349,10 @@ script = ExtResource( 1 )
 [node name="modLayer" type="CanvasLayer" parent="."]
 
 [node name="colorRect" type="ColorRect" parent="modLayer"]
-margin_left = -1940.0
-margin_top = -2676.0
-margin_right = 2189.0
-margin_bottom = 844.0
+margin_left = -1295.0
+margin_top = -2950.0
+margin_right = 3342.0
+margin_bottom = 1200.0
 mouse_filter = 2
 color = Color( 1, 1, 1, 0 )
 __meta__ = {
@@ -132,10 +360,10 @@ __meta__ = {
 }
 
 [node name="fade" type="ColorRect" parent="modLayer"]
-margin_left = -1949.0
-margin_top = -2680.0
-margin_right = 2186.0
-margin_bottom = 643.0
+margin_left = -1330.0
+margin_top = -2955.0
+margin_right = 3322.0
+margin_bottom = 1198.0
 mouse_filter = 2
 color = Color( 0, 0, 0, 0 )
 __meta__ = {
@@ -149,7 +377,7 @@ smoothing_speed = 4.0
 script = ExtResource( 8 )
 
 [node name="hotel" type="Sprite" parent="."]
-position = Vector2( -1330.25, -2683.78 )
+position = Vector2( -1330.04, -3663.72 )
 texture = ExtResource( 4 )
 centered = false
 
@@ -158,8 +386,159 @@ position = Vector2( 553.393, 457.289 )
 scale = Vector2( 1.2, 1.2 )
 frames = SubResource( 5 )
 animation = "idle"
-frame = 1
+frame = 2
 playing = true
+
+[node name="kylie_shake" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 2831.13, -744.042 )
+frames = SubResource( 10 )
+animation = "idle"
+frame = 3
+playing = true
+
+[node name="kylie_sad" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 2517.51, -724.921 )
+frames = SubResource( 16 )
+animation = "idle"
+frame = 5
+playing = true
+
+[node name="graphicsgale_gareth" type="AnimatedSprite" parent="."]
+position = Vector2( 2510.2, -737.571 )
+scale = Vector2( 2.4, 2.4 )
+frames = SubResource( 21 )
+animation = "idle"
+frame = 3
+playing = true
+
+[node name="aseprite_alex" type="AnimatedSprite" parent="."]
+position = Vector2( 1565.7, -1468.2 )
+scale = Vector2( 3.2, 3.2 )
+frames = SubResource( 26 )
+animation = "idle"
+frame = 2
+playing = true
+
+[node name="gimp_gilbert" type="AnimatedSprite" parent="."]
+position = Vector2( 1581.68, -132.405 )
+frames = SubResource( 30 )
+animation = "idle"
+playing = true
+
+[node name="notepad++_natalie" type="Sprite" parent="."]
+position = Vector2( 153.78, 1036.97 )
+scale = Vector2( 0.4, 0.4 )
+texture = ExtResource( 15 )
+region_rect = Rect2( 1.9162, 1.4906, 259.187, 658.707 )
+
+[node name="key" type="Sprite" parent="."]
+visible = false
+position = Vector2( 79.7567, 393.452 )
+z_index = 2
+texture = ExtResource( 21 )
+
+[node name="key_pop" parent="key" instance=ExtResource( 6 )]
+position = Vector2( 0, -95.504 )
+active = false
+
+[node name="area" type="Area2D" parent="key/key_pop"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="key/key_pop/area"]
+position = Vector2( 8.0181, 135.417 )
+shape = SubResource( 31 )
+
+[node name="arrow_left_0" type="Sprite" parent="."]
+visible = false
+position = Vector2( -632.524, -2055.76 )
+texture = ExtResource( 19 )
+region_enabled = true
+region_rect = Rect2( 9, 31, 99, 67 )
+
+[node name="arrow_left_1" type="Sprite" parent="."]
+position = Vector2( -519.005, -2055.76 )
+texture = ExtResource( 19 )
+region_enabled = true
+region_rect = Rect2( 122, 28, 82, 64 )
+
+[node name="arrow_right_0" type="Sprite" parent="."]
+visible = false
+position = Vector2( -171.07, -2048.21 )
+texture = ExtResource( 19 )
+region_enabled = true
+region_rect = Rect2( 17, 34, 76, 63 )
+
+[node name="arrow_right_1" type="Sprite" parent="."]
+position = Vector2( -70.0751, -2059.53 )
+texture = ExtResource( 19 )
+region_enabled = true
+region_rect = Rect2( 119, 20, 90, 77 )
+
+[node name="pistachios" type="Sprite" parent="."]
+position = Vector2( -395.24, -1276.87 )
+texture = ExtResource( 10 )
+
+[node name="pistachios_sad" type="Sprite" parent="."]
+visible = false
+position = Vector2( -395.24, -1274.68 )
+texture = ExtResource( 18 )
+
+[node name="pistachio_big" type="Sprite" parent="."]
+position = Vector2( 1557.19, -1344.19 )
+texture = ExtResource( 10 )
+
+[node name="pile1" type="Sprite" parent="pistachio_big"]
+position = Vector2( 95.124, 69.9255 )
+texture = ExtResource( 10 )
+
+[node name="pile2" type="Sprite" parent="pistachio_big"]
+position = Vector2( -119.063, 69.2957 )
+texture = ExtResource( 10 )
+
+[node name="pile3" type="Sprite" parent="pistachio_big"]
+position = Vector2( -18.2689, 71.8154 )
+texture = ExtResource( 10 )
+
+[node name="yellow_wall" type="Sprite" parent="."]
+visible = false
+position = Vector2( -242.308, -2109 )
+texture = ExtResource( 20 )
+
+[node name="turvy" type="Sprite" parent="."]
+position = Vector2( -464.416, -2024.39 )
+texture = ExtResource( 11 )
+
+[node name="wall" type="StaticBody2D" parent="turvy"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="turvy/wall"]
+position = Vector2( -1.99429, 233.752 )
+shape = SubResource( 32 )
+
+[node name="red_wall" type="StaticBody2D" parent="turvy"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="turvy/red_wall"]
+position = Vector2( -7.07104, -237.588 )
+shape = SubResource( 33 )
+
+[node name="green_wall" type="StaticBody2D" parent="turvy"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="turvy/green_wall"]
+position = Vector2( -228.196, -1.78809 )
+shape = SubResource( 34 )
+
+[node name="blue_wall" type="StaticBody2D" parent="turvy"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="turvy/blue_wall"]
+position = Vector2( 217.082, -2.12134 )
+shape = SubResource( 35 )
+
+[node name="trigger" type="Area2D" parent="."]
+position = Vector2( 2633.36, -2382.15 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="trigger"]
+position = Vector2( 0, -30.2383 )
+shape = SubResource( 36 )
 
 [node name="blast" type="Sprite" parent="."]
 visible = false
@@ -199,10 +578,45 @@ gravity = Vector2( 0, 0 )
 initial_velocity = 8.0
 color = Color( 0, 0, 1, 1 )
 
+[node name="blast_2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 2807.92, -2149.35 )
+texture = ExtResource( 9 )
+
+[node name="particles0" type="CPUParticles2D" parent="blast_2"]
+scale = Vector2( 8, 8 )
+amount = 32
+lifetime = 2.0
+direction = Vector2( 0, 0 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 8.0
+color = Color( 1, 0, 0, 1 )
+
+[node name="particles1" type="CPUParticles2D" parent="blast_2"]
+scale = Vector2( 8, 8 )
+amount = 32
+lifetime = 2.0
+direction = Vector2( 0, 0 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 8.0
+color = Color( 0, 1, 0, 1 )
+
+[node name="particles2" type="CPUParticles2D" parent="blast_2"]
+scale = Vector2( 8, 8 )
+amount = 32
+lifetime = 2.0
+direction = Vector2( 0, 0 )
+spread = 180.0
+gravity = Vector2( 0, 0 )
+initial_velocity = 8.0
+color = Color( 0, 0, 1, 1 )
+
 [node name="elevator1b" type="AnimatedSprite" parent="."]
 position = Vector2( 815.839, 1057.05 )
 z_index = 1
-frames = SubResource( 11 )
+frames = SubResource( 42 )
 animation = "open"
 
 [node name="pos" type="Node2D" parent="elevator1b"]
@@ -216,7 +630,7 @@ texture = ExtResource( 7 )
 [node name="elevator0" type="AnimatedSprite" parent="."]
 position = Vector2( 815.839, 463.052 )
 z_index = 1
-frames = SubResource( 11 )
+frames = SubResource( 42 )
 animation = "open"
 
 [node name="pos" type="Node2D" parent="elevator0"]
@@ -230,7 +644,7 @@ texture = ExtResource( 7 )
 [node name="elevator1" type="AnimatedSprite" parent="."]
 position = Vector2( 815.839, -134.948 )
 z_index = 1
-frames = SubResource( 11 )
+frames = SubResource( 42 )
 animation = "open"
 
 [node name="pos" type="Node2D" parent="elevator1"]
@@ -244,7 +658,7 @@ texture = ExtResource( 7 )
 [node name="elevator2" type="AnimatedSprite" parent="."]
 position = Vector2( 815.839, -731.948 )
 z_index = 1
-frames = SubResource( 11 )
+frames = SubResource( 42 )
 animation = "open"
 
 [node name="pos" type="Node2D" parent="elevator2"]
@@ -265,7 +679,7 @@ position = Vector2( 49.9467, 45.1899 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/elevator1b/area"]
 position = Vector2( 80.8661, 48.7575 )
-shape = SubResource( 12 )
+shape = SubResource( 43 )
 
 [node name="elevator0" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 717.686, 377.167 )
@@ -275,7 +689,7 @@ position = Vector2( 49.9467, 45.1899 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/elevator0/area"]
 position = Vector2( 80.8661, 48.7575 )
-shape = SubResource( 12 )
+shape = SubResource( 43 )
 
 [node name="elevator1" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 715.101, -225.318 )
@@ -287,7 +701,7 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/elevator1/area"]
-shape = SubResource( 13 )
+shape = SubResource( 44 )
 
 [node name="elevator2" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 715.101, -821.318 )
@@ -299,7 +713,7 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/elevator2/area"]
-shape = SubResource( 13 )
+shape = SubResource( 44 )
 
 [node name="krita_kylie" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 482.121, 385.454 )
@@ -309,7 +723,7 @@ scale = Vector2( 1.2, 1.2 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/krita_kylie/area"]
 position = Vector2( 57.4783, 81.2625 )
-shape = SubResource( 14 )
+shape = SubResource( 45 )
 
 [node name="room_202" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 74.3356, -886.984 )
@@ -324,7 +738,7 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/room_202/area"]
-shape = SubResource( 15 )
+shape = SubResource( 46 )
 
 [node name="floor_2" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 1212.04, -887.984 )
@@ -334,15 +748,15 @@ position = Vector2( -1130.15, 162.53 )
 
 [node name="area" type="Area2D" parent="popups/floor_2"]
 position = Vector2( -0.224854, 162.087 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/floor_2/area"]
-shape = SubResource( 16 )
+shape = SubResource( 47 )
 
 [node name="bathroom" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 1965.32, -894.462 )
+
+[node name="pos" type="Node2D" parent="popups/bathroom"]
+position = Vector2( -24.6125, -1057.48 )
 
 [node name="area" type="Area2D" parent="popups/bathroom"]
 position = Vector2( 0.00012207, 159.515 )
@@ -351,7 +765,7 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/bathroom/area"]
-shape = SubResource( 17 )
+shape = SubResource( 48 )
 
 [node name="bed" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 1569.77, -776.876 )
@@ -363,7 +777,7 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/bed/area"]
-shape = SubResource( 18 )
+shape = SubResource( 49 )
 
 [node name="blast" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 1842, -1077.23 )
@@ -376,7 +790,20 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/blast/area"]
-shape = SubResource( 19 )
+shape = SubResource( 50 )
+
+[node name="blast_2" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2990.85, -2307.8 )
+active = false
+
+[node name="area" type="Area2D" parent="popups/blast_2"]
+position = Vector2( -188.805, 228.046 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/blast_2/area"]
+shape = SubResource( 51 )
 
 [node name="rotate_puzzle" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 1486.76, 892.003 )
@@ -388,13 +815,13 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/rotate_puzzle/area"]
-shape = SubResource( 25 )
+shape = SubResource( 52 )
 
 [node name="sketchy_door" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( 1760.02, 909.194 )
 
 [node name="pos" type="Node2D" parent="popups/sketchy_door"]
-position = Vector2( 1336.04, -1050.72 )
+position = Vector2( 1291.28, -1030.3 )
 
 [node name="area" type="Area2D" parent="popups/sketchy_door"]
 position = Vector2( 3, 157 )
@@ -403,19 +830,35 @@ __meta__ = {
 }
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/sketchy_door/area"]
-shape = SubResource( 26 )
+shape = SubResource( 53 )
+
+[node name="sketchy_wc" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 3053.8, -291.15 )
+
+[node name="pos" type="Node2D" parent="popups/sketchy_wc"]
+position = Vector2( -1293.86, 1354.58 )
+
+[node name="area" type="Area2D" parent="popups/sketchy_wc"]
+position = Vector2( -4.54712, 173.018 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/sketchy_wc/area"]
+shape = SubResource( 53 )
 
 [node name="door_106" parent="popups" instance=ExtResource( 6 )]
-position = Vector2( 2344.7, -288.82 )
+position = Vector2( 2334.02, -286.15 )
 
 [node name="pos" type="Node2D" parent="popups/door_106"]
-position = Vector2( -3176.27, 188.314 )
+position = Vector2( -3176.27, 178.314 )
 
 [node name="area" type="Area2D" parent="popups/door_106"]
 position = Vector2( 0, 156 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/door_106/area"]
-shape = SubResource( 27 )
+position = Vector2( -5.73657, 2.66965 )
+shape = SubResource( 54 )
 
 [node name="room_106" parent="popups" instance=ExtResource( 6 )]
 position = Vector2( -827.768, -255.764 )
@@ -427,62 +870,593 @@ position = Vector2( 3172.65, 123.79 )
 position = Vector2( 0, 155 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/room_106/area"]
-shape = SubResource( 28 )
+position = Vector2( 1.5874, -3.17477 )
+shape = SubResource( 55 )
+
+[node name="room_101" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 306.711, -274.704 )
+
+[node name="pos" type="Node2D" parent="popups/room_101"]
+position = Vector2( 914.343, 150.803 )
+
+[node name="area" type="Area2D" parent="popups/room_101"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_101/area"]
+position = Vector2( -3.1748, 157.153 )
+shape = SubResource( 56 )
+
+[node name="door_101" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1225.82, -281.053 )
+
+[node name="pos" type="Node2D" parent="popups/door_101"]
+position = Vector2( -925.455, 163.502 )
+
+[node name="area" type="Area2D" parent="popups/door_101"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_101/area"]
+position = Vector2( -3.1748, 157.153 )
+shape = SubResource( 56 )
+
+[node name="wc_101" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1984.02, -284.132 )
+
+[node name="pos" type="Node2D" parent="popups/wc_101"]
+position = Vector2( -20.5487, -1045.04 )
+
+[node name="area" type="Area2D" parent="popups/wc_101"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/wc_101/area"]
+position = Vector2( -3.1748, 157.153 )
+shape = SubResource( 56 )
+
+[node name="wc_304" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1967.54, -1484.28 )
+
+[node name="pos" type="Node2D" parent="popups/wc_304"]
+position = Vector2( 9.41895, 1350.75 )
+
+[node name="area" type="Area2D" parent="popups/wc_304"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/wc_304/area"]
+position = Vector2( -3.1748, 158.653 )
+shape = SubResource( 56 )
+
+[node name="room_401" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 307.282, -2092.01 )
+
+[node name="pos" type="Node2D" parent="popups/room_401"]
+position = Vector2( 888.149, 145.017 )
+
+[node name="area" type="Area2D" parent="popups/room_401"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_401/area"]
+position = Vector2( 1.8252, 158.653 )
+shape = SubResource( 57 )
+
+[node name="door_401" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1199.35, -2098.37 )
+
+[node name="pos" type="Node2D" parent="popups/door_401"]
+position = Vector2( -891.739, 171.36 )
+
+[node name="area" type="Area2D" parent="popups/door_401"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_401/area"]
+position = Vector2( -3.1748, 158.653 )
+shape = SubResource( 57 )
+
+[node name="wc_401" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1952.64, -2104.17 )
+
+[node name="pos" type="Node2D" parent="popups/wc_401"]
+position = Vector2( 7.30176, 1364.45 )
+
+[node name="area" type="Area2D" parent="popups/wc_401"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/wc_401/area"]
+position = Vector2( -1.91491, 157.393 )
+shape = SubResource( 56 )
+
+[node name="room_304" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -392.532, -1516.89 )
+
+[node name="pos" type="Node2D" parent="popups/room_304"]
+position = Vector2( 1603.76, 196.221 )
+
+[node name="area" type="Area2D" parent="popups/room_304"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_304/area"]
+position = Vector2( -0.796387, 174.991 )
+shape = SubResource( 58 )
+
+[node name="door_304" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1211.37, -1486.49 )
+
+[node name="pos" type="Node2D" parent="popups/door_304"]
+position = Vector2( -1610.67, 166.973 )
+
+[node name="area" type="Area2D" parent="popups/door_304"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_304/area"]
+position = Vector2( 1.61792, 169.334 )
+shape = SubResource( 59 )
+
+[node name="room_205" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -619.713, -886.808 )
+
+[node name="pos" type="Node2D" parent="popups/room_205"]
+position = Vector2( 2961.29, 146.9 )
+
+[node name="area" type="Area2D" parent="popups/room_205"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_205/area"]
+position = Vector2( 0.61792, 169.334 )
+shape = SubResource( 59 )
+
+[node name="door_205" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2345.88, -906.466 )
+
+[node name="pos" type="Node2D" parent="popups/door_205"]
+position = Vector2( -2964.67, 188.162 )
+
+[node name="area" type="Area2D" parent="popups/door_205"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_205/area"]
+position = Vector2( 0.61792, 169.334 )
+shape = SubResource( 59 )
+
+[node name="stairs_200" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -1143.46, -909.23 )
+
+[node name="pos" type="Node2D" parent="popups/stairs_200"]
+position = Vector2( -7.97314, -420.229 )
+
+[node name="area" type="Area2D" parent="popups/stairs_200"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/stairs_200/area"]
+position = Vector2( -0.695068, 187.892 )
+shape = SubResource( 60 )
+
+[node name="stairs_300_0" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -1144.58, -1518.73 )
+
+[node name="pos" type="Node2D" parent="popups/stairs_300_0"]
+position = Vector2( -3.18518, 794.441 )
+
+[node name="area" type="Area2D" parent="popups/stairs_300_0"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/stairs_300_0/area"]
+position = Vector2( -5.13928, 187.305 )
+shape = SubResource( 60 )
+
+[node name="stairs_300_1" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 807.69, -1519.52 )
+
+[node name="pos" type="Node2D" parent="popups/stairs_300_1"]
+position = Vector2( -2.07971, -412.292 )
+
+[node name="area" type="Area2D" parent="popups/stairs_300_1"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/stairs_300_1/area"]
+position = Vector2( 4.86072, 186.305 )
+shape = SubResource( 60 )
+
+[node name="stairs_400" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 804.792, -2112.44 )
+
+[node name="pos" type="Node2D" parent="popups/stairs_400"]
+position = Vector2( 5.7945, 770.206 )
+
+[node name="area" type="Area2D" parent="popups/stairs_400"]
+position = Vector2( -1.5874, 0 )
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/stairs_400/area"]
+position = Vector2( 2.18378, 185.289 )
+shape = SubResource( 60 )
+
+[node name="gareth" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2585.48, -815.949 )
+
+[node name="area" type="Area2D" parent="popups/gareth"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/gareth/area"]
+position = Vector2( -77.9119, 98.8882 )
+shape = SubResource( 61 )
+
+[node name="blenders" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2816.26, -818.275 )
+active = false
+
+[node name="area" type="Area2D" parent="popups/blenders"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/blenders/area"]
+position = Vector2( 16.0361, 119.38 )
+shape = SubResource( 62 )
+
+[node name="alex" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1672.03, -1534.08 )
+
+[node name="area" type="Area2D" parent="popups/alex"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/alex/area"]
+position = Vector2( -104.271, 194.247 )
+shape = SubResource( 63 )
+
+[node name="gilbert" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 1694.72, -264.444 )
+
+[node name="area" type="Area2D" parent="popups/gilbert"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/gilbert/area"]
+position = Vector2( -107.638, 139.246 )
+shape = SubResource( 64 )
+
+[node name="natalie" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 152.516, 846.446 )
+
+[node name="area" type="Area2D" parent="popups/natalie"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/natalie/area"]
+position = Vector2( -1.68188, 188.361 )
+shape = SubResource( 65 )
+
+[node name="kylie_shake" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2941.17, -827.226 )
+active = false
+
+[node name="area" type="Area2D" parent="popups/kylie_shake"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/kylie_shake/area"]
+position = Vector2( -97.5437, 95.8622 )
+shape = SubResource( 66 )
+
+[node name="kylie_sad" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2585.6, -828.416 )
+active = false
+
+[node name="area" type="Area2D" parent="popups/kylie_sad"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/kylie_sad/area"]
+position = Vector2( -77.9219, 116.079 )
+shape = SubResource( 67 )
+
+[node name="error" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -1088.48, -2101.55 )
+
+[node name="area" type="Area2D" parent="popups/error"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/error/area"]
+position = Vector2( 0.529907, 184.876 )
+shape = SubResource( 68 )
+
+[node name="button_left" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -584.338, -2068.97 )
+
+[node name="area" type="Area2D" parent="popups/button_left"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/button_left/area"]
+position = Vector2( -2.37842, 137.948 )
+shape = SubResource( 69 )
+
+[node name="button_right" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -120.226, -2077.59 )
+
+[node name="area" type="Area2D" parent="popups/button_right"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/button_right/area"]
+position = Vector2( 1.18921, 145.083 )
+shape = SubResource( 70 )
+
+[node name="ladder" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -481.765, -2187.52 )
+
+[node name="pos" type="Node2D" parent="popups/ladder"]
+position = Vector2( 265.827, -363.269 )
+
+[node name="area" type="Area2D" parent="popups/ladder"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/ladder/area"]
+position = Vector2( 111.015, 276.539 )
+shape = SubResource( 71 )
+
+[node name="ladder_down" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -360.402, -2629.52 )
+
+[node name="pos" type="Node2D" parent="popups/ladder_down"]
+position = Vector2( -10.2197, 702.183 )
+
+[node name="area" type="Area2D" parent="popups/ladder_down"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/ladder_down/area"]
+position = Vector2( -16.0638, 143.705 )
+shape = SubResource( 72 )
+
+[node name="room_306" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -859.85, -1514.59 )
+
+[node name="pos" type="Node2D" parent="popups/room_306"]
+position = Vector2( 3201.71, 165.481 )
+
+[node name="area" type="Area2D" parent="popups/room_306"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_306/area"]
+position = Vector2( 4.76221, 182.551 )
+shape = SubResource( 73 )
+
+[node name="door_306" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2336.33, -1516.61 )
+
+[node name="pos" type="Node2D" parent="popups/door_306"]
+position = Vector2( -3193.69, 190.277 )
+
+[node name="area" type="Area2D" parent="popups/door_306"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_306/area"]
+position = Vector2( 5.24414, 179.048 )
+shape = SubResource( 74 )
+
+[node name="room_403" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -848.912, -2100.98 )
+
+[node name="pos" type="Node2D" parent="popups/room_403"]
+position = Vector2( 3187.87, 138.637 )
+
+[node name="area" type="Area2D" parent="popups/room_403"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_403/area"]
+position = Vector2( 5.24414, 179.048 )
+shape = SubResource( 74 )
+
+[node name="door_403" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 2334.19, -2142.32 )
+
+[node name="pos" type="Node2D" parent="popups/door_403"]
+position = Vector2( -3183.16, 214.98 )
+
+[node name="area" type="Area2D" parent="popups/door_403"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_403/area"]
+position = Vector2( 5.24414, 179.048 )
+shape = SubResource( 74 )
+
+[node name="wc_306" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 3094.81, -1519.98 )
+
+[node name="pos" type="Node2D" parent="popups/wc_306"]
+position = Vector2( -45.4807, 1398.32 )
+
+[node name="area" type="Area2D" parent="popups/wc_306"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/wc_306/area"]
+position = Vector2( 4.76221, 182.551 )
+shape = SubResource( 73 )
+
+[node name="room_501" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 476.339, -2730.58 )
+
+[node name="pos" type="Node2D" parent="popups/room_501"]
+position = Vector2( -261.653, 3205.26 )
+
+[node name="area" type="Area2D" parent="popups/room_501"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/room_501/area"]
+position = Vector2( 2.76221, 182.551 )
+shape = SubResource( 73 )
+
+[node name="door_501" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 232.308, 291.986 )
+active = false
+
+[node name="pos" type="Node2D" parent="popups/door_501"]
+position = Vector2( 246.327, -2838.17 )
+
+[node name="area" type="Area2D" parent="popups/door_501"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/door_501/area"]
+position = Vector2( -3.72308, 181.844 )
+shape = SubResource( 75 )
+
+[node name="roof" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( -1074, -2763 )
+
+[node name="pos" type="Node2D" parent="popups/roof"]
+position = Vector2( 24.5408, -370.812 )
+
+[node name="area" type="Area2D" parent="popups/roof"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/roof/area"]
+position = Vector2( 2.52258, 200.974 )
+shape = SubResource( 76 )
 
 [node name="walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="walls"]
 position = Vector2( -0.601456, 301.406 )
-shape = SubResource( 20 )
+shape = SubResource( 77 )
 
 [node name="collisionShape2" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1007.29, 300.515 )
-shape = SubResource( 20 )
+shape = SubResource( 77 )
 
 [node name="collisionShape3" type="CollisionShape2D" parent="walls"]
 position = Vector2( 996.755, -296.944 )
-shape = SubResource( 21 )
+shape = SubResource( 78 )
 
 [node name="collisionShape4" type="CollisionShape2D" parent="walls"]
 position = Vector2( 988.28, -896.6 )
-shape = SubResource( 21 )
+shape = SubResource( 78 )
 
 [node name="collisionShape5" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2129.32, -910.373 )
-shape = SubResource( 21 )
+shape = SubResource( 78 )
 
 [node name="collisionShape6" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1045.49, -897.658 )
-shape = SubResource( 21 )
+shape = SubResource( 78 )
+
+[node name="collisionShape7" type="CollisionShape2D" parent="walls"]
+position = Vector2( -1304.47, -268.583 )
+shape = SubResource( 78 )
+
+[node name="collisionShape8" type="CollisionShape2D" parent="walls"]
+position = Vector2( -1314.56, -879.073 )
+shape = SubResource( 78 )
+
+[node name="collisionShape9" type="CollisionShape2D" parent="walls"]
+position = Vector2( -1296.06, -1474.43 )
+shape = SubResource( 78 )
+
+[node name="collisionShape10" type="CollisionShape2D" parent="walls"]
+position = Vector2( -1282.04, -2100.09 )
+shape = SubResource( 78 )
+
+[node name="collisionShape11" type="CollisionShape2D" parent="walls"]
+position = Vector2( -1267.46, -2709.47 )
+shape = SubResource( 78 )
+
+[node name="collisionShape12" type="CollisionShape2D" parent="walls"]
+position = Vector2( 3.37598, 901.845 )
+shape = SubResource( 78 )
+
+[node name="collisionShape13" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2025.72, 885.809 )
+shape = SubResource( 78 )
+
+[node name="collisionShape14" type="CollisionShape2D" parent="walls"]
+position = Vector2( 1054.64, -291.96 )
+shape = SubResource( 78 )
+
+[node name="collisionShape15" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2137.97, -306.214 )
+shape = SubResource( 78 )
+
+[node name="collisionShape16" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2174.26, -297.317 )
+shape = SubResource( 78 )
+
+[node name="collisionShape17" type="CollisionShape2D" parent="walls"]
+position = Vector2( 3208.13, -307.561 )
+shape = SubResource( 78 )
+
+[node name="collisionShape18" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2180.87, -908.461 )
+shape = SubResource( 78 )
+
+[node name="collisionShape19" type="CollisionShape2D" parent="walls"]
+position = Vector2( 3255.29, -924.497 )
+shape = SubResource( 78 )
+
+[node name="collisionShape20" type="CollisionShape2D" parent="walls"]
+position = Vector2( 987.061, -1485.76 )
+shape = SubResource( 78 )
+
+[node name="collisionShape21" type="CollisionShape2D" parent="walls"]
+position = Vector2( 1049.42, -1494.67 )
+shape = SubResource( 78 )
+
+[node name="collisionShape22" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2122.07, -1503.58 )
+shape = SubResource( 78 )
+
+[node name="collisionShape23" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2179.08, -1510.71 )
+shape = SubResource( 78 )
+
+[node name="collisionShape24" type="CollisionShape2D" parent="walls"]
+position = Vector2( 3254.11, -1517.83 )
+shape = SubResource( 78 )
+
+[node name="collisionShape25" type="CollisionShape2D" parent="walls"]
+position = Vector2( 985.325, -2106.32 )
+shape = SubResource( 78 )
+
+[node name="collisionShape26" type="CollisionShape2D" parent="walls"]
+position = Vector2( 1030.57, -2113.61 )
+shape = SubResource( 78 )
+
+[node name="collisionShape27" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2107.89, -2125.25 )
+shape = SubResource( 78 )
+
+[node name="collisionShape28" type="CollisionShape2D" parent="walls"]
+position = Vector2( 2177.73, -2139.54 )
+shape = SubResource( 78 )
+
+[node name="collisionShape29" type="CollisionShape2D" parent="walls"]
+position = Vector2( 3253.41, -2147.87 )
+shape = SubResource( 78 )
+
+[node name="collisionShape30" type="CollisionShape2D" parent="walls"]
+position = Vector2( 986.317, -2716.43 )
+shape = SubResource( 78 )
 
 [node name="red_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="red_walls"]
 position = Vector2( 1006.49, 902.662 )
-shape = SubResource( 22 )
+shape = SubResource( 79 )
+
+[node name="collisionShape2" type="CollisionShape2D" parent="red_walls"]
+position = Vector2( 1813.58, -302.015 )
+shape = SubResource( 79 )
 
 [node name="green_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="green_walls"]
 position = Vector2( -271.222, -284.087 )
-shape = SubResource( 23 )
+shape = SubResource( 80 )
+
+[node name="collisionShape2" type="CollisionShape2D" parent="green_walls"]
+position = Vector2( 2919.99, -1514.87 )
+shape = SubResource( 80 )
+
+[node name="collisionShape3" type="CollisionShape2D" parent="green_walls"]
+position = Vector2( 309.039, -2702.45 )
+shape = SubResource( 81 )
 
 [node name="blue_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="blue_walls"]
 position = Vector2( -282.4, -891.606 )
-shape = SubResource( 24 )
+shape = SubResource( 82 )
 
 [node name="yellow_walls" type="StaticBody2D" parent="."]
 
+[node name="collisionShape" type="CollisionShape2D" parent="yellow_walls"]
+position = Vector2( -241.627, -2104.12 )
+shape = SubResource( 83 )
+
 [node name="teal_walls" type="StaticBody2D" parent="."]
 
+[node name="collisionShape" type="CollisionShape2D" parent="teal_walls"]
+position = Vector2( -833.219, -2697.18 )
+shape = SubResource( 84 )
+
 [node name="purple_walls" type="StaticBody2D" parent="."]
+
+[node name="collisionShape" type="CollisionShape2D" parent="purple_walls"]
+position = Vector2( -264.991, -1493.73 )
+shape = SubResource( 85 )
 
 [node name="root_mspm" parent="." instance=ExtResource( 5 )]
 position = Vector2( 213.255, 477.722 )
 z_index = 1
 
+[connection signal="body_entered" from="trigger" to="." method="_on_trigger_body_entered"]
 [connection signal="frame_changed" from="elevator1b" to="." method="_on_elevator1b_frame_changed"]
 [connection signal="frame_changed" from="elevator0" to="." method="_on_elevator0_frame_changed"]
 [connection signal="frame_changed" from="elevator1" to="." method="_on_elevator1_frame_changed"]

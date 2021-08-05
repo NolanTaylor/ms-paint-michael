@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh my. that was quite eventful\ni didn't really know what was going on"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "i did manage to steal a bag of pistachios from god"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "so that's cool"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628128738.json",
+		"name": "god"
+	}
+}

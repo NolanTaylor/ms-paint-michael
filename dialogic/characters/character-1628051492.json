@@ -1,0 +1,20 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1628051492.json",
+	"mirror_portraits": false,
+	"name": "God Himself",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -190,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/god_himself_portrait.png"
+		}
+	],
+	"scale": 80
+}

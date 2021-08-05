@@ -1,0 +1,52 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1627874810.json",
+	"mirror_portraits": false,
+	"name": "GraphicsGale Gareth",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/gareth_portrait.png"
+		},
+		{
+			"name": "Cool",
+			"path": "res://Assets/gareth_portrait_cool.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://Assets/gareth_portrait_happy.png"
+		},
+		{
+			"name": "Sadge",
+			"path": "res://Assets/gareth_portrait_sadge.png"
+		},
+		{
+			"name": "SuperCool",
+			"path": "res://Assets/gareth_portrait_supercool.png"
+		},
+		{
+			"name": "Uncool",
+			"path": "res://Assets/gareth_portrait_uncool.png"
+		},
+		{
+			"name": "Shine",
+			"path": "res://Assets/gareth_portrait_shine.png"
+		},
+		{
+			"name": "Shock",
+			"path": "res://Assets/gareth_portrait_shock.png"
+		},
+		{
+			"name": "Fire",
+			"path": "res://Assets/gareth_portrait_fire.png"
+		}
+	],
+	"scale": 400
+}

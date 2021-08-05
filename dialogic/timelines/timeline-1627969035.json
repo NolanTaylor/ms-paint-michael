@@ -1,0 +1,113 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi krita kylie"
+		},
+		{
+			"action": "join",
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "do you know grapicsgale gareth?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Oh yeah. He left some notes here the other day screaming about punching God in the face"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "may i see those notes"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Sure\n\"A protein shake with both the [color=#0000FF]Acidic[/color] and [color=#0000FF]Alkaline[/color] ingredient will explode unless the [color=#0000FF]Absorbant[/color] is also used\"\n\"A protein shake with the [color=#0000FF]Tasty[/color] ingredient will taste delicious\"\n\"A protein shake with the [color=#0000FF]Poison[/color] ingredient will be poisonous\"\n\"Shake [color=#00FF00]7[/color] has the [color=#0000FF]Alkaline[/color] ingredient\"\nYou might want to write that down or something\nOr talk to Notepad++ Natalie, she keeps track of stuff like this"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ok cool"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh, and if you find which protein shakes are [color=#0000FF]poisonous[/color] could you let me know?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "why?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "....."
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Nevermind"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "ok thanks"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627969035.json",
+		"name": "kylie_clues"
+	}
+}

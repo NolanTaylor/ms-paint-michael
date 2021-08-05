@@ -1,0 +1,91 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi krita kylie"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Where's GraphicsGale Gareth?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "he's in the bathroom one room over doing his best impression of violetta from verdi's la traviata"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Meaning?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "he's singing 19th century italian opera while dying of tuberculosis"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Heh"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I suppose the punishment fits the crime"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "god's object all sublime"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628062345.json",
+		"name": "kylie_sad"
+	}
+}

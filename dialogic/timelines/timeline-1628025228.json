@@ -1,0 +1,107 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi gimp gilbert"
+		},
+		{
+			"action": "join",
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "do you know graphicsgale gareth?"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Is that the guy with the protein shakes?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "yep, that's him"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I believe he barged in here a few days ago saying something about killing God"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "did he leave anything with you?"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I think I have some notes from him. Would you like to see them?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "yes please"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay\n\"The [color=#0000FF]Poison[/color] is either the [color=#FF0000]E-Girl Bathwater[/color] or the [color=#FF0000]Blood of a Virgin[/color]\"\n\"Shake [color=#00FF00]6[/color] does not contain the [color=#0000FF]Absorbant[/color]\"\n\"Shake [color=#00FF00]9[/color] contains [color=#FF0000]E-Girl Bathwater[/color]\"\n\"Shakes [color=#00FF00]8[/color] and [color=#00FF00]10[/color] [color=#0000FF]taste[/color] delicious\"\n\"Shakes [color=#00FF00]4[/color], [color=#00FF00]6[/color], and [color=#00FF00]10[/color] contain [color=#FF0000]Screams of the Unholy[/color]\"\nI think that's all"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "cool thanks"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628025228.json",
+		"name": "gilbert_clues"
+	}
+}

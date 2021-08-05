@@ -1,0 +1,285 @@
+{
+	"events": [
+		{
+			"emit_signal": "blast_2",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 2
+		},
+		{
+			"action": "join",
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Evil",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAHHA!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHAAHAHAH!!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I am the EVILER Photoshop Phil!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "And I am the EVILEST Pirated Photoshop Peter!!!1!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "And we are here to re-announce our plans of WORLD DOMINATION!!1!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHHAHAHAA!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHAHAHHAHA!!!!!!!11"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yes!! We will dominate this world!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "THis world will be dominated by us!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "Right after we find more doom fuel"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "For our giant DOOM Laser!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Of DOOM!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "Because our current supply of DOOM fuel.."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "Has been mysteriously replaced with pistachio shells"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "But once that's done!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "THE WORLDDDD!!!!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAHA!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BWAHAHAHAHAHHA!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "Wait..."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "I feel like we're forgetting something"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "Oh.."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Point",
+			"text": "This HOTELL!!!1"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "YEs!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "First the DOOM fuel!!!!1!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Then this hotel!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "THen the WORLDDD!!!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAHAA!!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BWAHAHAHAHHAAH!!!!1!!1"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "ANd nobody will be able to stop us!!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes! NObody!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "Except pistachio shells..."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "Apparently"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "..."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "........"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAHAHAH!!!!!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHHAHAHAHAHAHAH!!!!!1!1!1!!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ok"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628121022.json",
+		"name": "blast_2"
+	}
+}

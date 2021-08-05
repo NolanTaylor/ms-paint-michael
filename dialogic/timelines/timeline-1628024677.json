@@ -1,0 +1,95 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi gimp gilbert"
+		},
+		{
+			"action": "join",
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "do you know anything about the incomprehensibly colossal, everest adjacent, quantity of pistachio shells in front of room 304?"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, do you need to get into that room?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i do, but i am not one to jeapardize my finite mortality by challenging such a large amount of pistachio shells"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Well if you need another way in. The bathroom in this room does just kind of happen to coincidentally be a magic space portal leading directly into room 304"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "oh neat"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "thanks"
+		},
+		{
+			"character": "character-1628023775.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No problem"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628024677.json",
+		"name": "gilbert_2"
+	}
+}

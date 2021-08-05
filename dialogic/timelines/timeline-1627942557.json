@@ -1,0 +1,37 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh my, that's a lot of blenders\n[color=#00FF00]10[/color] to be exact\nalthough it seems blenders [color=#00FF00]2[/color] and [color=#00FF00]9[/color] are broken\nalmost as if an explosion occured inside them\nbut what kind of protein shake explodes?"
+		},
+		{
+			"emit_signal": "shake_puzzle",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627942557.json",
+		"name": "shake_puzzle"
+	}
+}

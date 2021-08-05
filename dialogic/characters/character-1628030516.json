@@ -1,0 +1,20 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1628030516.json",
+	"mirror_portraits": false,
+	"name": "Notepad++ Natalie",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": -195,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://Assets/natalie_portrait.png"
+		}
+	],
+	"scale": 42
+}

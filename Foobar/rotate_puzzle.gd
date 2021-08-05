@@ -17,8 +17,16 @@ func apply_color() -> void:
 		for child in $puzzle/green_walls.get_children():
 			child.disabled = true
 			
+func apply_data(bag_pos, orientation) -> void:
+	$fixed_point/pistachio_bag.position = bag_pos
+	$fixed_point.rotation_degrees = orientation
+	$puzzle.rotation_degrees = orientation
+			
 func exit() -> Array:
-	return [$pistachio_bag.position, $puzzle.rotation_degrees]
+	return [
+		$fixed_point/pistachio_bag.position,
+		$puzzle.rotation_degrees
+		]
 	
 func _ready():
 	pass

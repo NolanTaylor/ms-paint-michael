@@ -18,6 +18,18 @@
 		{
 			"name": "Sad",
 			"path": "res://Assets/kylie_portrait_sad.png"
+		},
+		{
+			"name": "Shake",
+			"path": "res://Assets/kylie_portrait_shake.png"
+		},
+		{
+			"name": "UUUH",
+			"path": "res://Assets/kylie_portrait_uuu.png"
+		},
+		{
+			"name": "Smile",
+			"path": "res://Assets/kylie_portrait_smile.png"
 		}
 	],
 	"scale": 100

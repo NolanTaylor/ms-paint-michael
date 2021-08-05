@@ -1,0 +1,131 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "you know my name"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I know everything ^_^"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "really?"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No\nBut I know your name ^w^"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh neat"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I'm Notepad++ Natalie :)"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi notepad++ natalie"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "So what's crack-a-lackin'? ;p"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "i dunno. what's crack-a-lackin' with you?"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me? I'm crack-a-havin' -- (o 3o)--\n.....\nThat was a joke 0_0\nI don't have any crack T.T\nPlease don't call the cops (/m-\\)"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "ok"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "i don't have any crack either"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Groovy ^_^ then we can both not have crack together"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "yeah"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628031013.json",
+		"name": "natalie_1"
+	}
+}

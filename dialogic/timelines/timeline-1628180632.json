@@ -1,0 +1,155 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi krita kylie"
+		},
+		{
+			"action": "join",
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "there's a locked door on the 5th floor"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yeah, there's nothing in there. It's just leads to the roof"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "how can i get in there? i would like to go to the roof"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Why do you want to go to the roof?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "two bald men in spandex are planning to dominate the world"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Kinky"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "their words, not mine"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You're going to stop them?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "no. they made it painfully explicit, they can't be stopped"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay. Well I have a key, so you can take it I guess"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "thanks krita kylie"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh\nOne more thing\nThe key can't travel through magic space bathroom portals\nI can't imagine that's ever a remotely relevant property\nBut I thought you should know"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i think you'd be surprised at how relevant that is"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Probably not\nA lot of stuff has happened"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I've sort of been desensitized at this point"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh. ok. well thanks anyway, krita kylie"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "No problem, Microsoft Paint Michael"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628180632.json",
+		"name": "kylie_5"
+	}
+}

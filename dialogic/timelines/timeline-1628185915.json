@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"audio": "stop",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "um....\nthat's weird\ni swear i hear something..\nsomething that sounds like...\na hearing sensation similar to.....\nalmost as if........\nit sounds almost exactly like............\nsomebody is dumping\nan ungodly number\nof pistachio shells on the floor\nso much so\nsuch that it would be near impossible to open the door from this side\ngiven the sheer quantity of pistachio shells being projectile vomited across the floor\nhypothetically\nof course\nbecause such a number of pistachio shells is highly unlikely to converge at any given point in space and time\nso it must be something else\nbut just to be safe. i probably shouldn't go opening that door"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628185915.json",
+		"name": "roof_on"
+	}
+}

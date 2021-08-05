@@ -1,0 +1,220 @@
+[gd_scene load_steps=34 format=2]
+
+[ext_resource path="res://Assets/shake_puzzle.png" type="Texture" id=1]
+[ext_resource path="res://Foobar/shake_puzzle.gd" type="Script" id=2]
+[ext_resource path="res://Assets/numbers.png" type="Texture" id=3]
+[ext_resource path="res://Assets/ingredients.png" type="Texture" id=4]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 3 )
+region = Rect2( 194, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 3 )
+region = Rect2( 388, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 3 )
+region = Rect2( 582, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 3 )
+region = Rect2( 776, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 3 )
+region = Rect2( 970, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 3 )
+region = Rect2( 1164, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 3 )
+region = Rect2( 1358, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 3 )
+region = Rect2( 1552, 0, 194, 136 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 3 )
+region = Rect2( 1746, 0, 194, 136 )
+
+[sub_resource type="SpriteFrames" id=11]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ) ],
+"loop": false,
+"name": "number",
+"speed": 0.0
+} ]
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 58, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 116, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 174, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 232, 416, 58 )
+
+[sub_resource type="SpriteFrames" id=17]
+animations = [ {
+"frames": [ SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ) ],
+"loop": false,
+"name": "ingredient",
+"speed": 0.0
+} ]
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 58, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 116, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 174, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 232, 416, 58 )
+
+[sub_resource type="SpriteFrames" id=23]
+animations = [ {
+"frames": [ SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ) ],
+"loop": false,
+"name": "ingredient",
+"speed": 0.0
+} ]
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 0, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 58, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 116, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 174, 416, 58 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 4 )
+region = Rect2( 0, 232, 416, 58 )
+
+[sub_resource type="SpriteFrames" id=29]
+animations = [ {
+"frames": [ SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ) ],
+"loop": false,
+"name": "ingriedent",
+"speed": 0.0
+} ]
+
+[node name="root_shake_puzzle" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="puzzle" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+centered = false
+
+[node name="numbers_button" type="Button" parent="."]
+margin_left = 135.0
+margin_top = 302.0
+margin_right = 269.0
+margin_bottom = 404.0
+focus_neighbour_right = NodePath("../ingredient_1_button")
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="numbers" type="AnimatedSprite" parent="numbers_button"]
+position = Vector2( 64.2172, 53.5143 )
+frames = SubResource( 11 )
+animation = "number"
+
+[node name="ingredient_1_button" type="Button" parent="."]
+margin_left = 431.0
+margin_top = 105.0
+margin_right = 899.0
+margin_bottom = 186.0
+focus_neighbour_left = NodePath("../numbers_button")
+focus_neighbour_bottom = NodePath("../ingredient_2_button")
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ingredient" type="AnimatedSprite" parent="ingredient_1_button"]
+position = Vector2( 228.046, 38.4276 )
+frames = SubResource( 17 )
+animation = "ingredient"
+
+[node name="ingredient_2_button" type="Button" parent="."]
+margin_left = 429.0
+margin_top = 207.0
+margin_right = 891.0
+margin_bottom = 292.0
+focus_neighbour_left = NodePath("../numbers_button")
+focus_neighbour_top = NodePath("../ingredient_1_button")
+focus_neighbour_bottom = NodePath("../ingredient_3_button")
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ingredient" type="AnimatedSprite" parent="ingredient_2_button"]
+position = Vector2( 228.922, 42.8114 )
+frames = SubResource( 23 )
+animation = "ingredient"
+frame = 1
+
+[node name="ingredient_3_button" type="Button" parent="."]
+margin_left = 428.0
+margin_top = 320.0
+margin_right = 894.0
+margin_bottom = 406.0
+focus_neighbour_left = NodePath("../numbers_button")
+focus_neighbour_top = NodePath("../ingredient_2_button")
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ingredient" type="AnimatedSprite" parent="ingredient_3_button"]
+position = Vector2( 231.301, 40.433 )
+frames = SubResource( 29 )
+animation = "ingriedent"
+frame = 2
+
+[connection signal="pressed" from="numbers_button" to="." method="_on_numbers_button_pressed"]
+[connection signal="pressed" from="ingredient_1_button" to="." method="_on_ingredient_1_button_pressed"]
+[connection signal="pressed" from="ingredient_2_button" to="." method="_on_ingredient_2_button_pressed"]
+[connection signal="pressed" from="ingredient_3_button" to="." method="_on_ingredient_3_button_pressed"]

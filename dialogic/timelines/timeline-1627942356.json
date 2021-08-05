@@ -1,0 +1,202 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Cool",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cool",
+			"text": "BRO!!"
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "SuperCool",
+			"text": "That's the shake!"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "Now we can kill God"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "oh my. that escalated quickly"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "No longer shall we live in fear"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cool",
+			"text": "The true dawn of man is on the horizon"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "You are on the cusp of the new era\nTell me, Microsoft Paint Michael, will you kill God with me?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "ummmmmmmm........"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "hmmmmmmmmmmm..............\n........................"
+		},
+		{
+			"background": "res://Assets/god_himself_portrait.png",
+			"event_id": "dialogic_021",
+			"fade_duration": 4
+		},
+		{
+			"character": "character-1628051492.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "GraphicsGale Gareth"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shock",
+			"text": "........................................\nTHAT'S HIM! THAT'S HIM!!\nQUICK!! Microsoft Paint Michael! Give me that [rainbow freq=0.2 sat=10 val=20]Protein Shake[/rainbow]!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "um.."
+		},
+		{
+			"character": "character-1628051492.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "I have been watching you"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Microsoft Paint Michael!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hmmmm.............. i don't know if i really should be doing this......."
+		},
+		{
+			"character": "character-1628051492.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "GraphicsGale Gareth"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quickly Microsoft Paint Michael! There's no time to think!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "ok"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "..."
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sadge",
+			"text": "........\n..................................\n.................................................................................................................."
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Fire",
+			"text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		},
+		{
+			"character": "character-1628051492.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		},
+		{
+			"action": "join",
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+		},
+		{
+			"emit_signal": "god",
+			"event_id": "dialogic_040"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627942356.json",
+		"name": "shake_puzzle_solved"
+	}
+}

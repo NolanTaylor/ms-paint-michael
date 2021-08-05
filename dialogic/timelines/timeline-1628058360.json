@@ -1,0 +1,89 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Shake",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "hi krita kylie"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shake",
+			"text": "Mmmmmmmphmf!!"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "UUUH",
+			"text": "HI MICROSOFT PAINT MICHAEL!!"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "what're doing?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "................\nNothing.."
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "none of those are real protein shakes\ni checked after graphicsgale gareth tried to kill god. they're all just different flavors of jamba juice\n(also, i'm pretty sure some of them have lsd)"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Oh\nOkay\nThanks Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "no problem krita kylie"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628058360.json",
+		"name": "kylie_shake"
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "oh no. i seem to have fallen down\nfortunately, this conspicously large pile of pistachio shells has conveniently cushioned my fall\nOH NO!!\ni've crushed aseprite alex's pile of pistachio shells\nthis beautiful work of art, desecrated at my own hands\nwhat have i become?\ni'm a monster\n...\nwell i guess i can go in now\nmaybe i should apologize to aseprite alex"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628121926.json",
+		"name": "fallen"
+	}
+}

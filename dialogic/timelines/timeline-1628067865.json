@@ -1,0 +1,47 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Uncool",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry bro. That's not the shake I'm looking for"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628067865.json",
+		"name": "shake_puzzle_failed"
+	}
+}

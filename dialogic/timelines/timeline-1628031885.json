@@ -1,0 +1,207 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi notepad++ natalie"
+		},
+		{
+			"action": "join",
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hi Microsoft Paint Michael ^_^"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "could i see graphicsgale gareth's note?"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sure!\n\"Each protien shake includes exactly three of five [color=#FF0000]ingredients[/color] and no two shakes are exactly alike\"\n\"The five [color=#FF0000]ingredients[/color] used are: [color=#FF0000]Protein Powder[/color], [color=#FF0000]E-Girl Bathwater[/color], [color=#FF0000]Screams of the Unholy[/color], [color=#FF0000]Blood of a Virgin[/color], and [color=#FF0000]Pistachios[/color]\"\n\"Additionally, each [color=#FF0000]ingredient[/color] has a unique, exclusive [color=#0000FF]quality[/color]: [color=#0000FF]Acidic[/color], [color=#0000FF]Alkaline[/color], [color=#0000FF]Absorbant[/color], [color=#0000FF]Poison[/color], and [color=#0000FF]Tasty[/color]\"\n\"Your goal is to find which [color=#00FF00]blender[/color] holds [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] and what [color=#FF0000]ingredients[/color] were used\"\n\"A protein shake with both the [color=#0000FF]Acidic[/color] and [color=#0000FF]Alkaline[/color] ingredient will explode unless the [color=#0000FF]Absorbant[/color] is also used\"\n\"A protein shake with the [color=#0000FF]Tasty[/color] ingredient will taste delicious\"\n\"A protein shake with the [color=#0000FF]Poison[/color] ingredient will be poisonous\"\n\"Shakes [color=#00FF00]2[/color] and [color=#00FF00]9[/color] have exploded\"\n\"Shake [color=#00FF00]7[/color] has the [color=#0000FF]Alkaline[/color] ingredient\"\n\"The [color=#0000FF]Poison[/color] is either the [color=#FF0000]E-Girl Bathwater[/color] or the [color=#FF0000]Blood of a Virgin[/color]\"\n\"Shake [color=#00FF00]6[/color] does not contain the [color=#0000FF]Absorbant[/color]\"\n\"Shake [color=#00FF00]9[/color] contains [color=#FF0000]E-Girl Bathwater[/color]\"\n\"Shakes [color=#00FF00]8[/color] and [color=#00FF00]10[/color] [color=#0000FF]taste[/color] delicious\"\n\"Shakes [color=#00FF00]4[/color], [color=#00FF00]6[/color], and [color=#00FF00]10[/color] contain [color=#FF0000]Screams of the Unholy[/color]\"\n\"Shakes [color=#00FF00]2[/color] and [color=#00FF00]6[/color] share exactly two [color=#FF0000]ingredients[/color]\"\n\"[color=#FF0000]Screams of the Unholy[/color] are not [color=#0000FF]Tasty[/color]\"\n\"[color=#FF0000]E-Girl Bathwater[/color] has pH OF 7 (neither [color=#0000FF]Acidic[/color] nor [color=#0000FF]Alkaline[/color])\"\n\"Shakes [color=#00FF00]6[/color] and [color=#00FF00]8[/color] exclusively share the [color=#FF0000]Blood of a Virgin[/color] (they share no other [color=#FF0000]ingredients[/color])\"\n\"Shakes [color=#00FF00]1[/color] and [color=#00FF00]5[/color] are [color=#0000FF]delicious[/color] but [color=#0000FF]poisonous[/color]\"\n\"Shakes [color=#00FF00]7[/color] and [color=#00FF00]10[/color] have all five [color=#FF0000]ingredients[/color] between them\"\n\"Shakes [color=#00FF00]1[/color] and [color=#00FF00]4[/color] contain [color=#FF0000]Protein Powder[/color]\"\n\"Shakes [color=#00FF00]3[/color] and [color=#00FF00]7[/color] share two [color=#FF0000]ingredients[/color], neither [color=#0000FF]taste[/color] very good\"\n\"Shakes [color=#00FF00]4[/color] and [color=#00FF00]5[/color] share only one [color=#FF0000]ingredient[/color]\"\n\"[rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] is not [color=#0000FF]poisonous[/color] and [color=#0000FF]tastes[/color] delicious\"\n\"[rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] has either [color=#FF0000]Screams of the Unholy[/color] or [color=#FF0000]Blood of a Virgin[/color] but not both\"\nThat's all ^_^"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ok thanks"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "If you're having trouble, would you like me to show you the answer?"
+		},
+		{
+			"choice": "i'd like that",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Of course ^_^ Everyone needs help sometimes\nBecause [color=#00FF00]2[/color] and [color=#00FF00]9[/color] have exploded, they must both have the [color=#0000FF]Alkaline[/color] and [color=#0000FF]Acidic[/color] qualities, but not the [color=#0000FF]Absorbant[/color]\nBecause [color=#00FF00]2[/color] and [color=#00FF00]9[/color] can't be the same, one must have the [color=#0000FF]Poison[/color] quality, the other must have the [color=#0000FF]Tasty[/color]\nBecause [color=#00FF00]9[/color] contains the [color=#FF0000]E-Girl Bathwater[/color] and because the [color=#FF0000]E-Girl Bathwater[/color] is neither [color=#0000FF]Acidic[/color] nor [color=#0000FF]Alkaline[/color], the [color=#FF0000]E-Girl Bathwater[/color] must be either [color=#0000FF]Poison[/color] or [color=#0000FF]Tasty[/color]. This also means that [color=#00FF00]2[/color] cannot contain the [color=#FF0000]E-Girl Bathwater[/color]\nBecause [color=#00FF00]6[/color] doesn't contain the [color=#0000FF]Absorbant[/color] but also hasn't exploded, [color=#00FF00]6[/color] cannot contain both the [color=#0000FF]Acidic[/color] and [color=#0000FF]Alkaline[/color] qualities\nHowever, because [color=#00FF00]6[/color] shares two [color=#FF0000]ingredients[/color] with [color=#00FF00]2[/color], and because [color=#00FF00]2[/color] has exploded, [color=#00FF00]6[/color] must contain either the [color=#0000FF]Acidic[/color] or [color=#0000FF]Alkaline[/color] (but not both)\nBecause [color=#00FF00]6[/color] doesn't contain the [color=#0000FF]Absorbant[/color], [color=#00FF00]6[/color]'s second shared [color=#FF0000]ingredient[/color] must be either the [color=#0000FF]Poison[/color] or [color=#0000FF]Tasty[/color] ingredient\nBecause [color=#00FF00]6[/color]'s third (unshared) [color=#FF0000]ingredient[/color] cannot be the [color=#0000FF]Absorbant[/color], [color=#0000FF]Acidic[/color], or [color=#0000FF]Alkaline[/color], it must be the second [color=#0000FF]Poison[/color]/[color=#0000FF]Tasty[/color]\nTherefore, [color=#00FF00]6[/color] contains the [color=#0000FF]Poison[/color], [color=#0000FF]Tasty[/color], and either [color=#0000FF]Acidic[/color] or [color=#0000FF]Alkaline[/color] qualities\nBecause the [color=#FF0000]E-Girl Bathwater[/color] holds either the [color=#0000FF]Poison[/color] or [color=#0000FF]Tasty[/color] quality, and because [color=#00FF00]6[/color] contains both, [color=#00FF00]6[/color] must contain the [color=#FF0000]E-Girl Bathwater[/color]\nBecause [color=#00FF00]6[/color] and [color=#00FF00]8[/color] exclusively share the [color=#FF0000]Blood of a Virgin[/color], and because [color=#00FF00]6[/color] contains the [color=#FF0000]Screams of the Unholy[/color] and [color=#FF0000]E-Girl Bathwater[/color], [color=#00FF00]8[/color]'s other two [color=#FF0000]ingredients[/color] must be the [color=#FF0000]Protein Powder[/color] and [color=#FF0000]Pistachios[/color]\nBecause both [color=#00FF00]6[/color] and [color=#00FF00]8[/color] are [color=#0000FF]Tasty[/color], and because they exclusively share the [color=#FF0000]Blood of a Virgin[/color], the [color=#FF0000]Blood of a Virgin[/color] must be [color=#0000FF]Tasty[/color]\nBecause the [color=#0000FF]Poison[/color] quality belongs to either the [color=#FF0000]Blood of a Virgin[/color] or the [color=#FF0000]E-Girl Bathwater[/color], and because the [color=#FF0000]Blood of a Virgin[/color] is [color=#0000FF]Tasty[/color], the [color=#FF0000]E-Girl Bathwater[/color] must be [color=#0000FF]Poison[/color]\nBecause [color=#00FF00]9[/color] contains the [color=#FF0000]E-Girl Bathwater[/color], and because the [color=#FF0000]E-Girl Bathwater[/color] is [color=#0000FF]Poison[/color], [color=#00FF00]2[/color] must contain the [color=#0000FF]Tasty[/color] quality (which is the [color=#FF0000]Blood of a Virgin[/color])\nBecause [color=#00FF00]2[/color] and [color=#00FF00]6[/color] share two [color=#FF0000]ingredients[/color], and because [color=#00FF00]2[/color] does not contain the [color=#FF0000]E-Girl Bathwater[/color], [color=#00FF00]2[/color] must share the [color=#FF0000]Blood of a Virgin[/color] and [color=#FF0000]Screams of the Unholy[/color] with [color=#00FF00]6[/color]\nBecause the [color=#FF0000]Blood of a Virgin[/color] is [color=#0000FF]Tasty[/color], and because [color=#00FF00]2[/color] exploded, the [color=#FF0000]Screams of the Unholy[/color] must be either [color=#0000FF]Acidic[/color] or [color=#0000FF]Alkaline[/color]\nBecause the [color=#FF0000]Screams of the Unholy[/color] are either [color=#0000FF]Acidic[/color] or [color=#0000FF]Alkaline[/color], and because [color=#00FF00]9[/color] contains both, [color=#00FF00]9[/color] must contain the [color=#FF0000]Screams of the Unholy[/color]"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Would you like me to keep going?"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay ^_^\nBecause [color=#00FF00]1[/color] and [color=#00FF00]5[/color] are [color=#0000FF]delicious[/color] but [color=#0000FF]poisonous[/color], they must both contain the [color=#FF0000]Blood of a Virgin[/color] and [color=#FF0000]E-Girl Bathwater[/color]\nBecause shakes [color=#00FF00]1[/color], [color=#00FF00]5[/color], and [color=#00FF00]6[/color] all contain [color=#FF0000]Blood of a Virgin[/color] and [color=#FF0000]E-Girl Bathwater[/color], and because each shake is unique, and because [color=#00FF00]1[/color] and [color=#00FF00]6[/color] also each contain [color=#FF0000]Screams of the Unholy[/color] and [color=#FF0000]Protein Powder[/color] respectively, [color=#00FF00]5[/color]'s final [color=#FF0000]ingredient[/color] must be [color=#FF0000]Pistachios[/color]\nBecause [color=#00FF00]4[/color] contains the [color=#FF0000]Screams of the Unholy[/color] and [color=#FF0000]Protein Powder[/color], and because [color=#00FF00]5[/color] contains the [color=#FF0000]Blood of a Virgin[/color] and [color=#FF0000]E-Girl Bathwater[/color], and because [color=#00FF00]4[/color] and [color=#00FF00]5[/color] share only one [color=#FF0000]ingredient[/color], the shared [color=#FF0000]ingredient[/color] must be [color=#FF0000]Pistachios[/color]\nBecause [color=#00FF00]7[/color] is not [color=#0000FF]Tasty[/color], and because [color=#00FF00]7[/color] and [color=#00FF00]10[/color] contain all five [color=#FF0000]ingredients[/color] between them, [color=#00FF00]10[/color] must have the [color=#0000FF]Tasty[/color] ingredient (which is [color=#FF0000]Blood of a Virgin[/color])"
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "If you've been writing everything down, this should be enough to find the answer. But I can just give it to you too"
+		},
+		{
+			"choice": "just give me the answer",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No problem ^_^\nBecause [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] is not [color=#0000FF]poisonous[/color], [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] cannot be shakes [color=#00FF00]1[/color], [color=#00FF00]5[/color], [color=#00FF00]6[/color], or [color=#00FF00]9[/color]\nBecause [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] is [color=#0000FF]delicious[/color], [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] cannot be shakes [color=#00FF00]3[/color], [color=#00FF00]4[/color], or [color=#00FF00]7[/color]\nBecause [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] doesn't have both [color=#FF0000]Blood of a Virgin[/color] and [color=#FF0000]Screams of the Unholy[/color], [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] cannot be shakes [color=#00FF00]2[/color] or [color=#00FF00]10[/color]\nBecause [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] cannot be shakes [color=#00FF00]1[/color], [color=#00FF00]2[/color], [color=#00FF00]3[/color], [color=#00FF00]4[/color], [color=#00FF00]5[/color], [color=#00FF00]6[/color], [color=#00FF00]7[/color], [color=#00FF00]9[/color], or [color=#00FF00]10[/color], [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] must be shake [color=#00FF00]8[/color]\n[rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] is shake [color=#00FF00]8[/color] and contains the [color=#FF0000]Protein Powder[/color], [color=#FF0000]Blood of a Virgin[/color], and [color=#FF0000]Pistachios[/color]\nThat's the answer |('  o')|"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "okay, thanks"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "i can go from here",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay ^_^ don't hesitate to ask for help"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "yes, please",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "nah, i've got it",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay ^_^ don't hesitate to ask for help"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "nah, i'm good",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1628030516.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Okay ^_^ don't hesitate to ask for help"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628031885.json",
+		"name": "natalie_clues_all"
+	}
+}

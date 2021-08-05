@@ -1,0 +1,347 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Happy",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey"
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "hi"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "How'd you get in here?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "the door was unlocked"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Hm. I guess I just assumed hotel doors locked themselves"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "generally a safe assumption"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh well. I'm GraphicsGale Gareth by the way"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i'm microsoft paint michael\nwhat's with all the blenders?"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "I'm glad you asked"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You see. I was attempting to create [rainbow freq=0.2 sat=10 val=20]The Ultimate Protein Shake[/rainbow]\nThe protein shake to end all protein shakes"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cool",
+			"text": "A concoction of such tremendous power"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "SuperCool",
+			"text": "A nutritional colossus of the likes no man had yet to behold"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "so did you succeed?"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cool",
+			"text": "Yes"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sadge",
+			"text": "But at a cost"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Uncool",
+			"text": "You see"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "This wasn't just an ordinary protein shake"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "When I took a sip of my glorious creation I lost all memory of how I made it"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sadge",
+			"text": "Maybe this is fate"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Maybe such a protein shake was never meant to exist"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "And in daring to drink my swole smoothie..."
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sadge",
+			"text": "I become too comfortable playing God"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "How could I have not seen this coming"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "In my infinite hubris I grew blind to the perils of power"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cool",
+			"text": "Just as Prometheus stole fire from the gods. So too have I stolen this protein shake"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sadge",
+			"text": "And now I must suffer their wrath"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I grew soft"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "I showed vulnerability"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "SuperCool",
+			"text": "I flew too close to the sun"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sadge",
+			"text": "And now God has cast me down"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "Maybe the nectar of Gods was not meant to be sipped by man"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "But you know what they say"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "what do they say?"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Science doesn't progress without being an affront to God and a literal abomination of Satan"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i don't think people say that"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "I don't care what people say\nI will have my [rainbow freq=0.2 sat=10 val=20]Perfect Protein Shake[/rainbow]"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cool",
+			"text": "And God can eat my swole, protein flavored ass cheeks"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "cool"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "Would you care to join me in unearthing the secrets of humanity's most powerful protein shake?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "well... i don't normally make a habit of insulting god"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "but i suppose i can make an exception this time"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Excellent"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "One of these [color=#00FF00]10 blenders[/color] holds my [rainbow freq=0.2 sat=10 val=20]Perfect Protein Shake[/rainbow]"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "But I wouldn't go tasting them if I were you"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Some of them are [color=#0000FF]poisonous[/color]"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I'll need you to find which blender holds [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] and what [color=#FF0000]ingredients[/color] I used to make it\nI have some notes here and I also left notes with the others in this hotel due to my previous experience with early onset Alzheimer's\nEach protien shake includes exactly three of five [color=#FF0000]ingredients[/color] and no two shakes are exactly alike\nThe five [color=#FF0000]ingredients[/color] used are:\n[color=#FF0000]Protein Powder[/color]\n[color=#FF0000]E-Girl Bathwater[/color]\n[color=#FF0000]Screams of the Unholy[/color]\n[color=#FF0000]Blood of a Virgin[/color]\nand [color=#FF0000]Pistachios[/color]\nAdditionally, each ingredient has a unique, exclusive [color=#0000FF]quality[/color]\nThe [color=#0000FF]qualities[/color] are as follows:\n[color=#0000FF]Acidic[/color]\n[color=#0000FF]Alkaline[/color]\n[color=#0000FF]Absorbant[/color]\n[color=#0000FF]Poison[/color]\nand [color=#0000FF]Tasty[/color]\nRemember, your goal is to find which [color=#00FF00]blender[/color] holds [rainbow freq=0.2 sat=10 val=20]The Perfect Protein Shake[/rainbow] and what [color=#FF0000]ingredients[/color] were used\nThere are some notes on the table over there and I left some notes with the others around this hotel"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "are you going to help at all?"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Nope! Early onset Alzheimer's, remember?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "are you sure that isn't the reason you forgot the ingredients?"
+		},
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "Shine",
+			"text": "Yes. I'm positive. This is the work of God\nGod was scared because my protein shake was too powerful so he made me lose my memory, and now I need your help"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "ok cool"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1627870371.json",
+		"name": "gareth_1"
+	}
+}
