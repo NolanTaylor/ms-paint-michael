@@ -50,7 +50,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "he's in the bathroom one room over doing his best impression of violetta from verdi's la traviata"
+			"text": "he's in the bathroom doing his best impression of violetta from verdi's la traviata"
 		},
 		{
 			"character": "character-1627693528.json",
@@ -81,6 +81,142 @@
 			"event_id": "dialogic_001",
 			"portrait": "Default",
 			"text": "god's object all sublime"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "I wish I had the confidence to kill God"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "i often feel that sort of immense hubris is sorely lacking in the average human of today's society\ngraphicsgale gareth was truly a speciman"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "You talk as if he's already dead"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[wave amp=50 freq=2]what's that i hear?[/wave]\nis that libiamo ne'lieti calici i hear?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "nope, my bad. that's just graphicsgale gareth [shake rate=5 level=10]coughing blood[/shake] into the sink"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Maybe [shake rate=5 level=10]'I want to kill God'[/shake] levels of confidence is too much"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "my body's distinctive lack of tuberculosis is something of an inestimable treasure for all the world holds dear"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Maybe I should be aiming lower"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "how about 'being surrounded by twenty lovesick maidens while working to dismantle the high culture aesthetic movement of 1870's england' levels of confidence?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[wave amp=50 freq=2]Hmmm..[/wave] Closer, but not quite"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "melt your rich uncle in wax?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "[shake rate=5 level=10]Hnnnnnnnnggh[/shake], that's a stretch\nThat's an entire [wave amp=50 freq=2]wardrobe of spandex[/wave] stretch"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "dress has always been my strongest suit"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Okay\nWait\nLook what you've gotten yourself into"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Now you have to explain to me how Elton John qualifies as 19th century opera"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "wait\nwhat?"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You've been making 19th century opera references this entire conversation"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "is that what i've been doing?"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "flipv",
+			"text": "i didn't realize"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "Pffffft\nOkay\nThanks Microsoft Paint Michael"
+		},
+		{
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "no problem krita kylie"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

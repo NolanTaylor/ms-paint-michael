@@ -1,5 +1,7 @@
 extends Node2D
 
+onready var tween_out = get_node("tween")
+
 const rotate_puzzle = preload("res://Foobar/rotate_puzzle.tscn")
 const shake_puzzle = preload("res://Foobar/shake_puzzle.tscn")
 
@@ -62,7 +64,8 @@ func _ready():
 	$popups/bed.connect("interacted", self, "bed_e")
 	$popups/blast.connect("interacted", self, "blast_e")
 	$popups/blast_2.connect("interacted", self, "blast_2_e")
-	$popups/rotate_puzzle.connect("interacted", self, "rotate_puzzle_e")
+	$popups/rotate_puzzle.connect("interacted", self, \
+		"rotate_puzzle_e")
 	$popups/sketchy_door.connect("interacted", self, "sketchy_door_e")
 	$popups/sketchy_wc.connect("interacted", self, "sketchy_wc_e")
 	$popups/door_106.connect("interacted", self, "door_106_e")
@@ -102,39 +105,18 @@ func _ready():
 	$popups/room_501.connect("interacted", self, "room_501_e")
 	$popups/door_501.connect("interacted", self, "door_501_e")
 	$popups/roof.connect("interacted", self, "roof_e")
+	$popups/traviata.connect("interacted", self, "traviata_e")
 	$key/key_pop.connect("interacted", self, "pick_up_key")
 	
 	$root_mspm.connect("interact", self, "interacted")
 	
-func _process(delta):
-	# testing:
-
-	if Input.is_action_just_pressed("exit"):
-		$root_mspm.position = get_global_mouse_position()
-	if Input.is_action_just_pressed("ui_home"):
-		drop_key()
-	if Input.is_action_just_pressed("ui_focus_next"):
-		match color:
-			"red":
-				hole_1 = "green"
-				$blast/particles0.color = Color(0, 1, 0)
-				$blast/particles1.color = Color(0, 1, 0)
-				$blast/particles2.color = Color(0, 1, 0)
-			"green":
-				hole_1 = "blue"
-				$blast/particles0.color = Color(0, 0, 1)
-				$blast/particles1.color = Color(0, 0, 1)
-				$blast/particles2.color = Color(0, 0, 1)
-			"blue":
-				hole_1 = "red"
-				$blast/particles0.color = Color(1, 0, 0)
-				$blast/particles1.color = Color(1, 0, 0)
-				$blast/particles2.color = Color(1, 0, 0)
-			"NULL":
-				color = "red"
-
-		set_color()
+	$music.volume_db = -80
+	tween_out.interpolate_property($music, "volume_db", \
+		-80, 0.0, 1.0, 1, Tween.EASE_IN, 0)
+	tween_out.start()
+	$music.play()
 	
+func _process(delta):
 	if elevating:
 		if Input.is_action_just_pressed("up"):
 			if floor_on < 2:
@@ -165,6 +147,7 @@ func _process(delta):
 			target_orientation = 0
 			clockwise = false
 			$root_mspm.position.y = -1912
+			$root_mspm.talking = false
 			if $root_mspm.position.x < -250:
 				match color:
 					"red":
@@ -186,6 +169,7 @@ func _process(delta):
 			target_orientation = 0
 			counterclockwise = false
 			$root_mspm.position.y = -1912
+			$root_mspm.talking = false
 			if $root_mspm.position.x < -250:
 				match color:
 					"red":
@@ -252,6 +236,7 @@ func kylie_e() -> void:
 		key = true
 		$key.show()
 		kylie_convo = 7
+		$popups/krita_kylie.active = false
 	elif kylie_pistachio:
 		kylie_dialog = Dialogic.start("kylie_pistachio", false)
 		kylie_pistachio = false
@@ -284,7 +269,11 @@ func kylie_e() -> void:
 	
 func room_202_e() -> void:
 	if kylie_convo >= 2:
+		$door.play()
 		$root_mspm.position = $popups/room_202/pos.global_position
+		tween_out.interpolate_property($music, "volume_db", \
+			0.0, -80, 2.0, 1, Tween.EASE_IN, 0)
+		tween_out.start()
 	else:
 		$root_mspm.talking = true
 		$popups/room_202.hide()
@@ -293,7 +282,12 @@ func room_202_e() -> void:
 		$canvasLayer.add_child(room_dialog)
 	
 func floor_2_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/floor_2/pos.global_position
+	$music.volume_db = -80
+	tween_out.interpolate_property($music, "volume_db", \
+		-80, 0.0, 2.0, 1, Tween.EASE_IN, 0)
+	tween_out.start()
 	
 func bathroom_e() -> void:
 	if !portal:
@@ -304,6 +298,10 @@ func bathroom_e() -> void:
 		$canvasLayer.add_child(bathroom_dialog)
 	else:
 		$root_mspm.position = $popups/bathroom/pos.global_position
+		$music.volume_db = -80
+		tween_out.interpolate_property($music, "volume_db", \
+			-80, 0.0, 2.0, 1, Tween.EASE_IN, 0)
+		tween_out.start()
 		drop_key()
 		floor_on = 4
 	
@@ -391,15 +389,19 @@ func sketchy_wc_e() -> void:
 	floor_on = -1
 	
 func door_106_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/door_106/pos.global_position
 	
 func room_106_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/room_106/pos.global_position
 	
 func room_101_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/room_101/pos.global_position
 	
 func door_101_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/door_101/pos.global_position
 	
 func wc_101_e() -> void:
@@ -420,9 +422,11 @@ func wc_304_e() -> void:
 	floor_on = 1
 	
 func room_401_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/room_401/pos.global_position
 	
 func door_401_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/door_401/pos.global_position
 	
 func wc_401_e() -> void:
@@ -431,10 +435,29 @@ func wc_401_e() -> void:
 	floor_on = 2
 	
 func room_205_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/room_205/pos.global_position
-	
+	tween_out.interpolate_property($music, "volume_db", \
+			0.0, -80, 2.0, 1, Tween.EASE_IN, 0)
+	tween_out.start()
+	if $kylie_shake.visible or $kylie_sad.visible:
+		$traviata.volume_db = -80
+		tween_out.interpolate_property($traviata, "volume_db", \
+			-80, -12, 2.0, 1, Tween.EASE_IN, 0)
+		tween_out.start()
+		$traviata.play()
+		
 func door_205_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/door_205/pos.global_position
+	tween_out.interpolate_property($music, "volume_db", \
+			0.0, -80, 2.0, 1, Tween.EASE_IN, 0)
+	tween_out.start()
+	if $kylie_shake.visible or $kylie_sad.visible:
+		tween_out.interpolate_property($traviata, "volume_db", \
+			-12, -80, 2.0, 1, Tween.EASE_IN, 0)
+		tween_out.start()
+		$traviata.stop()
 	
 func stairs_200_e() -> void:
 	$root_mspm.position = $popups/stairs_200/pos.global_position
@@ -453,9 +476,11 @@ func stairs_400_e() -> void:
 	floor_on = 3
 	
 func room_306_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/room_306/pos.global_position
 	
 func door_306_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/door_306/pos.global_position
 	
 func wc_306_e() -> void:
@@ -464,12 +489,23 @@ func wc_306_e() -> void:
 	floor_on = 1
 	
 func room_403_e() -> void:
+	$door.play()
+	tween_out.interpolate_property($music, "volume_db", \
+		0, -80, 2.0, 1, Tween.EASE_IN, 0)
+	tween_out.start()
 	$root_mspm.position = $popups/room_403/pos.global_position
 	
 func door_403_e() -> void:
+	$door.play()
+	$music.volume_db = -80
+	tween_out.interpolate_property($music, "volume_db", \
+		-80, 0.0, 2.0, 1, Tween.EASE_IN, 0)
+	tween_out.start()
+	$music.play()
 	$root_mspm.position = $popups/door_403/pos.global_position
 	
 func room_501_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/room_501/pos.global_position
 	$popups/door_501.active = true
 	floor_on = 0
@@ -481,6 +517,7 @@ func room_501_e() -> void:
 		$canvasLayer.add_child(portal_dialog)
 	
 func door_501_e() -> void:
+	$door.play()
 	$root_mspm.position = $popups/door_501/pos.global_position
 	floor_on = 5
 	
@@ -615,6 +652,13 @@ func kylie_sad_e() -> void:
 	$popups/kylie_sad.active = false
 	$canvasLayer.add_child(kylie_dialog)
 	
+func traviata_e() -> void:
+	$root_mspm.talking = true
+	$popups/traviata.hide()
+	var dialog = Dialogic.start("traviata", false)
+	dialog.connect("timeline_end", self, "dialog_end")
+	$canvasLayer.add_child(dialog)
+	
 func room_304_e() -> void:
 	if pistachio_pile_1:
 		$root_mspm.talking = true
@@ -632,6 +676,7 @@ func room_304_e() -> void:
 		door_dialog.connect("timeline_end", self, "dialog_end")
 		$canvasLayer.add_child(door_dialog)
 	else:
+		$door.play()
 		$root_mspm.position = $popups/room_304/pos.global_position
 	
 func door_304_e() -> void:
@@ -642,6 +687,7 @@ func door_304_e() -> void:
 		door_dialog.connect("timeline_end", self, "dialog_end")
 		$canvasLayer.add_child(door_dialog)
 	else:
+		$door.play()
 		$root_mspm.position = $popups/door_304/pos.global_position
 		
 func error_e() -> void:
@@ -654,8 +700,14 @@ func error_e() -> void:
 func roof_e() -> void:
 	if key:
 		$root_mspm.position = $popups/roof/pos.global_position
+		$modLayer/colorRect.color = Color(0, 0, 0, 0)
 		floor_on = 6
 		$root_mspm.talking = true
+		key = false
+		$key.hide()
+		tween_out.interpolate_property($music, "volume_db", \
+			0.0, -80, 4.0, 1, Tween.EASE_IN, 0)
+		tween_out.start()
 		var roof_dialog = Dialogic.start("roof_on", false)
 		roof_dialog.connect("timeline_end", self, "dialog_end")
 		$canvasLayer.add_child(roof_dialog)
@@ -674,6 +726,7 @@ func roof_e() -> void:
 		$canvasLayer.add_child(roof_dialog)
 	
 func button_left_e() -> void:
+	$root_mspm.talking = true
 	if flip_left:
 		flip_left = false
 		counterclockwise = true
@@ -688,6 +741,7 @@ func button_left_e() -> void:
 		$arrow_left_1.hide()
 	
 func button_right_e() -> void:
+	$root_mspm.talking = true
 	if flip_right:
 		flip_right = false
 		counterclockwise = true
@@ -865,6 +919,12 @@ func dialogical(argument) -> void:
 			$popups/gareth.active = false
 			$popups/kylie_shake.active = true
 			$popups/krita_kylie.active = false
+			$popups/traviata.active = true
+			$music.volume_db = -80
+			tween_out.interpolate_property($music, "volume_db", \
+				-80, 0.0, 6.0, 1, Tween.EASE_IN, 0)
+			tween_out.start()
+			$music.play()
 			$graphicsgale_gareth.hide()
 			$krita_kylie.hide()
 			$kylie_shake.show()
@@ -874,6 +934,8 @@ func dialogical(argument) -> void:
 			var god_dialog = Dialogic.start("god", false)
 			god_dialog.connect("timeline_end", self, "dialog_end")
 			$canvasLayer.add_child(god_dialog)
+		"end":
+			get_tree().change_scene("res://end.tscn")
 			
 func set_color() -> void:
 	if hole_1 == "red":
@@ -997,6 +1059,7 @@ func fall() -> void:
 		pistachio_pile_1 = false
 		$pistachios.hide()
 		$pistachios_sad.show()
+		$popups/alex.active = true
 		$root_mspm.talking = true
 		var nut_dialog = Dialogic.start("fallen", false)
 		nut_dialog.connect("timeline_end", self, "dialog_end")
@@ -1020,6 +1083,7 @@ func _on_elevator0_frame_changed():
 			$root_mspm.z_index = 1
 			$root_mspm.talking = false
 		$elevator0.play("open", true)
+		$ding.play()
 	elif $elevator0.frame == 0:
 		if getting_in:
 			elevating = true
@@ -1034,6 +1098,7 @@ func _on_elevator1_frame_changed():
 			$root_mspm.z_index = 1
 			$root_mspm.talking = false
 		$elevator1.play("open", true)
+		$ding.play()
 	elif $elevator1.frame == 0:
 		if getting_in:
 			elevating = true
@@ -1048,6 +1113,7 @@ func _on_elevator2_frame_changed():
 			$root_mspm.z_index = 1
 			$root_mspm.talking = false
 		$elevator2.play("open", true)
+		$ding.play()
 	elif $elevator2.frame == 0:
 		if getting_in:
 			elevating = true
@@ -1062,6 +1128,7 @@ func _on_elevator1b_frame_changed():
 			$root_mspm.z_index = 1
 			$root_mspm.talking = false
 		$elevator1b.play("open", true)
+		$ding.play()
 	elif $elevator1b.frame == 0:
 		if getting_in:
 			elevating = true
@@ -1076,3 +1143,11 @@ func _on_trigger_body_entered(body):
 		phil_dialog.connect("dialogic_signal", self, "dialogical")
 		$trigger/collisionShape.disabled = true
 		$canvasLayer.add_child(phil_dialog)
+	
+func _on_trigger2_body_entered(body):
+	$root_mspm.talking = true
+	var phil_dialog = Dialogic.start("laser", false)
+	phil_dialog.connect("timeline_end", self, "dialog_end")
+	phil_dialog.connect("dialogic_signal", self, "dialogical")
+	$trigger/collisionShape.disabled = true
+	$canvasLayer.add_child(phil_dialog)

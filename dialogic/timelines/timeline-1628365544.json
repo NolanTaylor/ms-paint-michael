@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1627874810.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[wave amp=50 freq=2]Addio, del passato bei sogni ridenti[/wave]\n[wave amp=50 freq=2]Le rose del volto già son pallenti[/wave]\n[wave amp=50 freq=2]L'amore d'Alfredo pur esso mi manca[/wave]\n[shake rate=5 level=10]COUGH COUGH COUGH[/shake]\n[wave amp=50 freq=2]Conforto, sostegno dell'anima stanca[/wave]\n[wave amp=50 freq=2]Ah, della traviata sorridi al desio[/wave]\n[wave amp=50 freq=2]A lei, deh, perdona; tu accoglila, o Dio[/wave]\n[wave amp=50 freq=2]Or tutto finì[/wave]\n[shake rate=5 level=10]COUGH COUGH COUGH[/shake]\n[wave amp=50 freq=2]Le gioie, i dolori tra poco avran fine[/wave]\n[wave amp=50 freq=2]La tomba ai mortali di tutto è confine![/wave]\n[wave amp=50 freq=2]Non lagrima o fiore avrà la mia fossa[/wave]\n[shake rate=5 level=10]COUGH COUGH COUGH[/shake]\n[wave amp=50 freq=2]Non croce col nome che copra quest'ossa![/wave]\n[wave amp=50 freq=2]Ah, della traviata sorridi al desio[/wave]\n[wave amp=50 freq=2]A lei, deh, perdona; tu accoglila, o Dio[/wave]\n[shake rate=5 level=10]COUGH COUGH COUGH[/shake]\n[wave amp=50 freq=2]Or tutto finì[/wave]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628365544.json",
+		"name": "traviata"
+	}
+}

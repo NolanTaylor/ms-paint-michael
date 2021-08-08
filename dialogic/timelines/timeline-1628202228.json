@@ -1,0 +1,410 @@
+{
+	"events": [
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Audio/overture.mp3",
+			"volume": 0
+		},
+		{
+			"action": "join",
+			"character": "character-1627691111.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Evil",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAHHA!!!!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "BWAHAHAHAHAHAHAH!!!!!!11!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You came!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yes!! You came!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "But surely you didn't come to stop us"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Point",
+			"text": "Because we can't be stopped"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "As was established multiple times"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "Which means..."
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "You must've come to watch us!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Yes!!\nYou wanted to see us take over the world!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "But who can blame you?"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Our process is somewhat of an [wave amp=50 freq=2]artform[/wave] after all"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "Now!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Since we don't have to worry about you stopping us"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Point",
+			"text": "Because we can't be stopped!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "We can move on to enacting our evil plan for [shake rate=5 level=10]WORLD DOMINATION[/shake]!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "With our giant DOOM Laser!!1"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Of DOOM!!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAAHHAHAHAHAH!!!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHAHAHAHAHAHHA!!!!!!!1!!1"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "..."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "....."
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "We couldn't find any more DOOM fuel"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Skeptic",
+			"text": "So we're just going to use the pistachio shells"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Audio/overture.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I can't imagine anything going wrong!!!!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Evil",
+			"text": "MWAHAHAHAHAHHAHA!!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "BWAHAHAHAHAHAHAHHAHA!!!!!!!11"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Now!! JUst to prepare the giant DOOM Laser!!!"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Point",
+			"text": "Of DOOM!!!!"
+		},
+		{
+			"action": "join",
+			"character": "character-1628208618.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1628208618.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ".....................\n................................................................\n................................................................................................................................."
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "It's workingggggg!!!!!!!"
+		},
+		{
+			"character": "character-1628208618.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=5 level=10]..............................................................................................................................................................................................................................................[/shake]"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I feeeel soo [shake rate=5 level=10]EVILLLLLL!!!!!1!111!!!![/shake]"
+		},
+		{
+			"character": "character-1628208618.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=5 level=10]................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................[/shake]\n.\n.\n."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "Cough",
+			"text": "..."
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "Think",
+			"text": "..."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Audio/overture.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "AAAH",
+			"text": "[shake rate=5 level=10]NO!!![/shake]"
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "AAAH",
+			"text": "WHat's wrong!!?!"
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "AAAH",
+			"text": "Why isn't anything happening?!?1!/?"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
+		},
+		{
+			"character": "character-1627719882.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1627718828.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"action": "join",
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_002",
+			"mirror": false,
+			"portrait": "Sculpt",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sculpt",
+			"text": "..."
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 0,
+			"file": "res://Assets/Audio/energy.mp3",
+			"volume": 0
+		},
+		{
+			"character": "character-1627978943.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "[shake rate=5 level=10]AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA[/shake]"
+		},
+		{
+			"emit_signal": "end",
+			"event_id": "dialogic_040"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628202228.json",
+		"name": "laser"
+	}
+}

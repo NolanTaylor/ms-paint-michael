@@ -62,7 +62,7 @@
 			"character": "character-1628023775.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Well if you need another way in. The bathroom in this room does just kind of happen to coincidentally be a magic space portal leading directly into room 304"
+			"text": "Well if you need another way in. The bathroom in this room does just kind of [wave amp=50 freq=2]happen[/wave] to [wave amp=50 freq=2]coincidentally[/wave] be a magic space portal leading directly into room 304"
 		},
 		{
 			"character": "character-1627691111.json",

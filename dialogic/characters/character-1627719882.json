@@ -26,6 +26,10 @@
 		{
 			"name": "Point",
 			"path": "res://Assets/peter_portrait_point.png"
+		},
+		{
+			"name": "AAAH",
+			"path": "res://Assets/peter_portrait_aaa.png"
 		}
 	],
 	"scale": 100

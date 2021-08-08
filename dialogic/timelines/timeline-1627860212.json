@@ -18,7 +18,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "there is a pile of pistachio shells blocking the door\nno, not just a pile\na mountain of pistachio shells\ni could move them...\nbut somebody clearly put a lot of work into getting this many pistachio shells"
+			"text": "there is a pile of pistachio shells blocking the door\nno, not just a pile\na [shake rate=5 level=10]mountain[/shake] of pistachio shells\ni could move them...\nbut somebody clearly put a lot of work into getting this many pistachio shells"
 		},
 		{
 			"character": "character-1627691111.json",

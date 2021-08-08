@@ -68,7 +68,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "two bald men in spandex are planning to dominate the world"
+			"text": "two bald men in spandex are planning to \"[shake rate=5 level=10]dominate[/shake]\" the world"
 		},
 		{
 			"character": "character-1627693528.json",

@@ -18,7 +18,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "it looks like there's a normal bathroom in there\nyes indeed. a very normal bathroom\nthis bathroom doesn't look anything like a magic space portal"
+			"text": "it looks like there's a normal bathroom in there\nyes indeed. a [wave amp=50 freq=2]very normal[/wave] bathroom\nthis bathroom doesn't look [wave amp=50 freq=2]anything[/wave] like a magic space portal"
 		},
 		{
 			"character": "character-1627691111.json",
@@ -30,13 +30,13 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "but hypothetically... if this bathroom were a magic space portal..\n(which it most likely isn't)\nit doesn't look anything like one"
+			"text": "[wave amp=50 freq=2]but hypothetically...[/wave] if this bathroom [wave amp=50 freq=2]were[/wave] a magic space portal..\n(which it most likely isn't)\nit doesn't look anything like one"
 		},
 		{
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "flipv",
-			"text": "so it's probably just a normal bathroom"
+			"text": "so it's [wave amp=50 freq=2]probably[/wave] just a normal bathroom"
 		},
 		{
 			"character": "character-1627691111.json",

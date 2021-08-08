@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "...\nThat's it\nThat's the end\nWhat?\nYou wanted closure?\nYou wanted character development?\nYou wanted an ending that actually makes sense?\nYou wanted me to actually follow the theme of the jam instead of getting distracted by dialogue about pistachios?\nYou wanted me to actually finish the game instead of spending hours trying to figure out why dialogic won't properly pack itself into the .pck file only to give up and just provide an external link to an .html version?\nYeah... Me too..\nOh well..\n10 days is not nearly as much as I thought it would be :/\nYou made it this far, so hopefully you enjoyed it regardless\nHere are some credits:\n\"The Lounge\" - Bensound.com\n\"Explosion hit\" - Mixkit.co\n\"Dark Flashes\" - Shane Ivers at silvermansound.com\n\"Action and Adventure\" - Shane Ivers at silvermansound.com\n\"Libiamo ne' lieti calici\" - MIT Symphony Orchestra\n\"Energy\" - Scott Holmes Music\nMost of these are under non-profit, attribution licenses. I'm not sure if a game jam with monetary prizes constitutes as 'non-profit', but if any of y'all wanna cease in desist me over a janky stick figure game drawn in MS Paint then be my guest\nThanks for playing!"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2.5",
+		"file": "timeline-1628212520.json",
+		"name": "end"
+	}
+}

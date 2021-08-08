@@ -15,18 +15,18 @@
 			}
 		},
 		{
-			"audio": "stop",
+			"audio": "play",
 			"audio_bus": "Master",
 			"event_id": "dialogic_030",
 			"event_name": "AudioEvent",
-			"file": "",
+			"file": "res://Assets/Audio/nut.wav",
 			"volume": 0
 		},
 		{
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "um....\nthat's weird\ni swear i hear something..\nsomething that sounds like...\na hearing sensation similar to.....\nalmost as if........\nit sounds almost exactly like............\nsomebody is dumping\nan ungodly number\nof pistachio shells on the floor\nso much so\nsuch that it would be near impossible to open the door from this side\ngiven the sheer quantity of pistachio shells being projectile vomited across the floor\nhypothetically\nof course\nbecause such a number of pistachio shells is highly unlikely to converge at any given point in space and time\nso it must be something else\nbut just to be safe. i probably shouldn't go opening that door"
+			"text": "um....\nthat's weird\ni swear i hear something..\nsomething that [wave amp=50 freq=2]sounds like..[/wave]\na hearing sensation [wave amp=50 freq=2]similar to.....[/wave]\n[wave amp=50 freq=2]almost as if...........[/wave]\nit sounds almost [wave amp=50 freq=2]exactly like.....................[/wave]\nsomebody is dumping\nan [shake rate=5 level=10]ungodly[/shake]\nnumber of pistachio shells on the floor\nso much so\nsuch that it would be near impossible to open the door from this side\ngiven the sheer quantity of pistachio shells being projectile vomited across the floor\n[wave amp=50 freq=2]hypothetically[/wave]\nof course\nbecause such a number of pistachio shells is highly unlikely to converge at any given point in space and time\nso it must be something else\nbut just to be safe. i probably shouldn't go opening that door"
 		},
 		{
 			"event_id": "dialogic_022",

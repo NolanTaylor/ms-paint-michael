@@ -38,19 +38,19 @@
 			"character": "character-1627693528.json",
 			"event_id": "dialogic_001",
 			"portrait": "Shake",
-			"text": "Mmmmmmmphmf!!"
+			"text": "[shake rate=5 level=10]Mmmmmmmmphmf!![/shake]"
 		},
 		{
 			"character": "character-1627693528.json",
 			"event_id": "dialogic_001",
 			"portrait": "UUUH",
-			"text": "HI MICROSOFT PAINT MICHAEL!!"
+			"text": "[shake rate=5 level=10]HI MICROSOFT PAINT MICHAEL!!![/shake]"
 		},
 		{
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "flipv",
-			"text": "what're doing?"
+			"text": "[wave amp=50 freq=2]what're you doing?[/wave]"
 		},
 		{
 			"character": "character-1627693528.json",

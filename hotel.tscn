@@ -1,4 +1,4 @@
-[gd_scene load_steps=107 format=2]
+[gd_scene load_steps=112 format=2]
 
 [ext_resource path="res://hotel.gd" type="Script" id=1]
 [ext_resource path="res://Assets/krita_kylie.png" type="Texture" id=2]
@@ -21,6 +21,10 @@
 [ext_resource path="res://Assets/arrows.png" type="Texture" id=19]
 [ext_resource path="res://Assets/yellow_wall.png" type="Texture" id=20]
 [ext_resource path="res://Assets/key.png" type="Texture" id=21]
+[ext_resource path="res://Assets/Audio/ding.wav" type="AudioStream" id=22]
+[ext_resource path="res://Assets/Audio/brindisi.mp3" type="AudioStream" id=23]
+[ext_resource path="res://Assets/Audio/lounge.mp3" type="AudioStream" id=25]
+[ext_resource path="res://Assets/Audio/door.wav" type="AudioStream" id=26]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )
@@ -315,30 +319,33 @@ extents = Vector2( 74.4225, 106.873 )
 extents = Vector2( 51.0305, 113.596 )
 
 [sub_resource type="RectangleShape2D" id=77]
-extents = Vector2( 8.50597, 299.37 )
+extents = Vector2( 39.9561, 93.397 )
 
 [sub_resource type="RectangleShape2D" id=78]
-extents = Vector2( 8.50597, 285.786 )
+extents = Vector2( 8.50597, 299.37 )
 
 [sub_resource type="RectangleShape2D" id=79]
-extents = Vector2( 9.4859, 268.34 )
+extents = Vector2( 8.50597, 285.786 )
 
 [sub_resource type="RectangleShape2D" id=80]
-extents = Vector2( 6.67487, 270.799 )
+extents = Vector2( 9.4859, 268.34 )
 
 [sub_resource type="RectangleShape2D" id=81]
-extents = Vector2( 6.67487, 255.287 )
+extents = Vector2( 6.67487, 270.799 )
 
 [sub_resource type="RectangleShape2D" id=82]
-extents = Vector2( 6.34021, 277.89 )
+extents = Vector2( 6.67487, 255.287 )
 
 [sub_resource type="RectangleShape2D" id=83]
-extents = Vector2( 5.22205, 279.144 )
+extents = Vector2( 6.34021, 277.89 )
 
 [sub_resource type="RectangleShape2D" id=84]
-extents = Vector2( 5.22205, 252.517 )
+extents = Vector2( 5.22205, 279.144 )
 
 [sub_resource type="RectangleShape2D" id=85]
+extents = Vector2( 5.22205, 252.517 )
+
+[sub_resource type="RectangleShape2D" id=86]
 extents = Vector2( 7.85229, 270.47 )
 
 [node name="root_hotel" type="Node2D"]
@@ -376,8 +383,22 @@ smoothing_enabled = true
 smoothing_speed = 4.0
 script = ExtResource( 8 )
 
+[node name="tween" type="Tween" parent="."]
+
+[node name="music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 25 )
+
+[node name="traviata" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 23 )
+
+[node name="ding" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 22 )
+
+[node name="door" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 26 )
+
 [node name="hotel" type="Sprite" parent="."]
-position = Vector2( -1330.04, -3663.72 )
+position = Vector2( -1328.36, -3663.72 )
 texture = ExtResource( 4 )
 centered = false
 
@@ -537,6 +558,16 @@ shape = SubResource( 35 )
 position = Vector2( 2633.36, -2382.15 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="trigger"]
+position = Vector2( 0, -30.2383 )
+shape = SubResource( 36 )
+
+[node name="trigger2" type="Area2D" parent="."]
+position = Vector2( 178.168, -3535.5 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="collisionShape" type="CollisionShape2D" parent="trigger2"]
 position = Vector2( 0, -30.2383 )
 shape = SubResource( 36 )
 
@@ -1274,7 +1305,7 @@ shape = SubResource( 75 )
 position = Vector2( -1074, -2763 )
 
 [node name="pos" type="Node2D" parent="popups/roof"]
-position = Vector2( 24.5408, -370.812 )
+position = Vector2( 24.5408, -363.812 )
 
 [node name="area" type="Area2D" parent="popups/roof"]
 
@@ -1282,181 +1313,200 @@ position = Vector2( 24.5408, -370.812 )
 position = Vector2( 2.52258, 200.974 )
 shape = SubResource( 76 )
 
+[node name="traviata" parent="popups" instance=ExtResource( 6 )]
+position = Vector2( 3099.44, -902.08 )
+active = false
+
+[node name="area" type="Area2D" parent="popups/traviata"]
+
+[node name="collisionShape" type="CollisionShape2D" parent="popups/traviata/area"]
+position = Vector2( 4.49487, 159.57 )
+shape = SubResource( 77 )
+
 [node name="walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="walls"]
 position = Vector2( -0.601456, 301.406 )
-shape = SubResource( 77 )
+shape = SubResource( 78 )
 
 [node name="collisionShape2" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1007.29, 300.515 )
-shape = SubResource( 77 )
+shape = SubResource( 78 )
 
 [node name="collisionShape3" type="CollisionShape2D" parent="walls"]
 position = Vector2( 996.755, -296.944 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape4" type="CollisionShape2D" parent="walls"]
 position = Vector2( 988.28, -896.6 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape5" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2129.32, -910.373 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape6" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1045.49, -897.658 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape7" type="CollisionShape2D" parent="walls"]
 position = Vector2( -1304.47, -268.583 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape8" type="CollisionShape2D" parent="walls"]
 position = Vector2( -1314.56, -879.073 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape9" type="CollisionShape2D" parent="walls"]
-position = Vector2( -1296.06, -1474.43 )
-shape = SubResource( 78 )
+position = Vector2( -1300.3, -1499.86 )
+shape = SubResource( 79 )
 
 [node name="collisionShape10" type="CollisionShape2D" parent="walls"]
 position = Vector2( -1282.04, -2100.09 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape11" type="CollisionShape2D" parent="walls"]
 position = Vector2( -1267.46, -2709.47 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape12" type="CollisionShape2D" parent="walls"]
 position = Vector2( 3.37598, 901.845 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape13" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2025.72, 885.809 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape14" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1054.64, -291.96 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape15" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2137.97, -306.214 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape16" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2174.26, -297.317 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape17" type="CollisionShape2D" parent="walls"]
 position = Vector2( 3208.13, -307.561 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape18" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2180.87, -908.461 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape19" type="CollisionShape2D" parent="walls"]
 position = Vector2( 3255.29, -924.497 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape20" type="CollisionShape2D" parent="walls"]
-position = Vector2( 987.061, -1485.76 )
-shape = SubResource( 78 )
+position = Vector2( 987.061, -1505.89 )
+shape = SubResource( 79 )
 
 [node name="collisionShape21" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1049.42, -1494.67 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape22" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2122.07, -1503.58 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape23" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2179.08, -1510.71 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape24" type="CollisionShape2D" parent="walls"]
 position = Vector2( 3254.11, -1517.83 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape25" type="CollisionShape2D" parent="walls"]
 position = Vector2( 985.325, -2106.32 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape26" type="CollisionShape2D" parent="walls"]
 position = Vector2( 1030.57, -2113.61 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape27" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2107.89, -2125.25 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape28" type="CollisionShape2D" parent="walls"]
 position = Vector2( 2177.73, -2139.54 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape29" type="CollisionShape2D" parent="walls"]
 position = Vector2( 3253.41, -2147.87 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
 
 [node name="collisionShape30" type="CollisionShape2D" parent="walls"]
 position = Vector2( 986.317, -2716.43 )
-shape = SubResource( 78 )
+shape = SubResource( 79 )
+
+[node name="collisionShape31" type="CollisionShape2D" parent="walls"]
+position = Vector2( -1270.65, -3289.92 )
+shape = SubResource( 79 )
+
+[node name="collisionShape32" type="CollisionShape2D" parent="walls"]
+position = Vector2( 989.681, -3310.1 )
+shape = SubResource( 79 )
 
 [node name="red_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="red_walls"]
 position = Vector2( 1006.49, 902.662 )
-shape = SubResource( 79 )
+shape = SubResource( 80 )
 
 [node name="collisionShape2" type="CollisionShape2D" parent="red_walls"]
 position = Vector2( 1813.58, -302.015 )
-shape = SubResource( 79 )
+shape = SubResource( 80 )
 
 [node name="green_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="green_walls"]
 position = Vector2( -271.222, -284.087 )
-shape = SubResource( 80 )
+shape = SubResource( 81 )
 
 [node name="collisionShape2" type="CollisionShape2D" parent="green_walls"]
 position = Vector2( 2919.99, -1514.87 )
-shape = SubResource( 80 )
+shape = SubResource( 81 )
 
 [node name="collisionShape3" type="CollisionShape2D" parent="green_walls"]
 position = Vector2( 309.039, -2702.45 )
-shape = SubResource( 81 )
+shape = SubResource( 82 )
 
 [node name="blue_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="blue_walls"]
 position = Vector2( -282.4, -891.606 )
-shape = SubResource( 82 )
+shape = SubResource( 83 )
 
 [node name="yellow_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="yellow_walls"]
 position = Vector2( -241.627, -2104.12 )
-shape = SubResource( 83 )
+shape = SubResource( 84 )
 
 [node name="teal_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="teal_walls"]
 position = Vector2( -833.219, -2697.18 )
-shape = SubResource( 84 )
+shape = SubResource( 85 )
 
 [node name="purple_walls" type="StaticBody2D" parent="."]
 
 [node name="collisionShape" type="CollisionShape2D" parent="purple_walls"]
 position = Vector2( -264.991, -1493.73 )
-shape = SubResource( 85 )
+shape = SubResource( 86 )
 
 [node name="root_mspm" parent="." instance=ExtResource( 5 )]
 position = Vector2( 213.255, 477.722 )
 z_index = 1
 
 [connection signal="body_entered" from="trigger" to="." method="_on_trigger_body_entered"]
+[connection signal="body_entered" from="trigger2" to="." method="_on_trigger2_body_entered"]
 [connection signal="frame_changed" from="elevator1b" to="." method="_on_elevator1b_frame_changed"]
 [connection signal="frame_changed" from="elevator0" to="." method="_on_elevator0_frame_changed"]
 [connection signal="frame_changed" from="elevator1" to="." method="_on_elevator1_frame_changed"]

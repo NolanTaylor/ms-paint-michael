@@ -80,19 +80,19 @@
 			"character": "character-1628030516.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "So what's crack-a-lackin'? ;p"
+			"text": "So what's [wave amp=50 freq=2]crack-a-lackin'?[/wave] ;p"
 		},
 		{
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "flipv",
-			"text": "i dunno. what's crack-a-lackin' with you?"
+			"text": "i dunno. what's [wave amp=50 freq=2]crack-a-lackin'[/wave] with you?"
 		},
 		{
 			"character": "character-1628030516.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Me? I'm crack-a-havin' -- (o 3o)--\n.....\nThat was a joke 0_0\nI don't have any crack T.T\nPlease don't call the cops (/m-\\)"
+			"text": "Me? I'm [wave amp=50 freq=2]crack-a-havin'[/wave] -- (o 3o)--\n.....\nThat was a joke 0_0\nI don't have any crack T.T\nPlease don't call the cops (/m-\\)"
 		},
 		{
 			"character": "character-1627691111.json",

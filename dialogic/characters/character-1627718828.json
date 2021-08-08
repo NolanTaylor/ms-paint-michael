@@ -22,6 +22,10 @@
 		{
 			"name": "Evil",
 			"path": "res://Assets/phil_portrait_evil.png"
+		},
+		{
+			"name": "AAAH",
+			"path": "res://Assets/phil_portrait_aaa.png"
 		}
 	],
 	"scale": 100

@@ -18,7 +18,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "oh no. i seem to have fallen down\nfortunately, this conspicously large pile of pistachio shells has conveniently cushioned my fall\nOH NO!!\ni've crushed aseprite alex's pile of pistachio shells\nthis beautiful work of art, desecrated at my own hands\nwhat have i become?\ni'm a monster\n...\nwell i guess i can go in now\nmaybe i should apologize to aseprite alex"
+			"text": "oh no. i seem to have fallen down\nfortunately, this conspicously large pile of pistachio shells has conveniently cushioned my fall\n[shake rate=5 level=10]OH NO!!![/shake]\ni've crushed aseprite alex's pile of pistachio shells\nthis beautiful work of art, desecrated at my own hands\nwhat have i become?\ni'm a monster\n...\nwell i guess i can go in now\nmaybe i should apologize to aseprite alex"
 		},
 		{
 			"event_id": "dialogic_022",

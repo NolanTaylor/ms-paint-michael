@@ -83,6 +83,15 @@
 			"text": "I'm glad you asked"
 		},
 		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 3,
+			"file": "res://Assets/Audio/action_and_adventure.mp3",
+			"volume": 0
+		},
+		{
 			"character": "character-1627874810.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
@@ -92,13 +101,13 @@
 			"character": "character-1627874810.json",
 			"event_id": "dialogic_001",
 			"portrait": "Cool",
-			"text": "A concoction of such tremendous power"
+			"text": "A concoction of such [shake rate=5 level=10]tremendous[/shake] power"
 		},
 		{
 			"character": "character-1627874810.json",
 			"event_id": "dialogic_001",
 			"portrait": "SuperCool",
-			"text": "A nutritional colossus of the likes no man had yet to behold"
+			"text": "A nutritional [shake rate=5 level=10]colossus[/shake] of the likes no man had yet to behold"
 		},
 		{
 			"character": "character-1627691111.json",
@@ -128,7 +137,7 @@
 			"character": "character-1627874810.json",
 			"event_id": "dialogic_001",
 			"portrait": "Shine",
-			"text": "This wasn't just an ordinary protein shake"
+			"text": "This wasn't just an [wave amp=50 freq=2]ordinary[/wave] protein shake"
 		},
 		{
 			"character": "character-1627874810.json",
@@ -188,13 +197,13 @@
 			"character": "character-1627874810.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "I grew soft"
+			"text": "I grew [wave amp=50 freq=2]soft[/wave]"
 		},
 		{
 			"character": "character-1627874810.json",
 			"event_id": "dialogic_001",
 			"portrait": "Shine",
-			"text": "I showed vulnerability"
+			"text": "I showed [shake rate=5 level=10]vulnerability[/shake]"
 		},
 		{
 			"character": "character-1627874810.json",
@@ -266,7 +275,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "flipv",
-			"text": "well... i don't normally make a habit of insulting god"
+			"text": "[wave amp=50 freq=2]well...[/wave] i don't normally make a habit of insulting god"
 		},
 		{
 			"character": "character-1627691111.json",
@@ -297,6 +306,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "Happy",
 			"text": "Some of them are [color=#0000FF]poisonous[/color]"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"character": "character-1627874810.json",

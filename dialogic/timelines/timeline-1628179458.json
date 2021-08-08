@@ -38,7 +38,7 @@
 			"character": "character-1627978943.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "WELCOME!!!!"
+			"text": "[shake rate=5 level=10]WELCOME!!![/shake]"
 		},
 		{
 			"character": "character-1627691111.json",
@@ -56,7 +56,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "flipv",
-			"text": "soooooo......."
+			"text": "[wave amp=50 freq=2]sooooooooo............[/wave]"
 		},
 		{
 			"character": "character-1627691111.json",
@@ -68,19 +68,19 @@
 			"character": "character-1627978943.json",
 			"event_id": "dialogic_001",
 			"portrait": "Gosh",
-			"text": "..."
+			"text": "[shake rate=5 level=10]...[/shake]"
 		},
 		{
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "i know, i'm sorry. i'm a monster\nan abomination\ni've defiled a work of art\ndoes art even hold meaning after such a horrendous act\nno amount of repent could redeem somelike me\nthere are, after all, only two sins in the eyes of god. and the second one is crushing pistachio shells"
+			"text": "i know, i'm sorry. i'm a [shake rate=5 level=10]monster[/shake]\nan [shake rate=5 level=10]abomination[/shake]\ni've [wave amp=50 freq=2]defiled[/wave] a work of art\ndoes art even hold meaning after such a [shake rate=5 level=10]horrendous[/shake] act\nno amount of repent could redeem someone like me\nthere are, after all, only two sins in the eyes of god. and the second one is crushing pistachio shells"
 		},
 		{
 			"character": "character-1627978943.json",
 			"event_id": "dialogic_001",
 			"portrait": "(Don't change)",
-			"text": "..."
+			"text": "[shake rate=5 level=10]...[/shake]"
 		},
 		{
 			"character": "character-1627691111.json",

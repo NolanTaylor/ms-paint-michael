@@ -25,8 +25,25 @@
 			"event_id": "dialogic_040"
 		},
 		{
+			"audio": "play",
+			"audio_bus": "Master",
+			"event_id": "dialogic_030",
+			"event_name": "AudioEvent",
+			"file": "res://Assets/Audio/explosion.wav",
+			"volume": 0
+		},
+		{
 			"event_id": "dialogic_023",
-			"wait_seconds": 3
+			"wait_seconds": 2
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "play",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "res://Assets/Audio/overture.mp3",
+			"volume": 0
 		},
 		{
 			"action": "join",
@@ -72,13 +89,13 @@
 			"character": "character-1627718828.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "I am the EVIL Photoshop Phil!!"
+			"text": "I am the [wave amp=50 freq=2]EVIL[/wave] Photoshop Phil!!"
 		},
 		{
 			"character": "character-1627719882.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "And I am the EVILER Pirated PHotoshop Peter!"
+			"text": "And I am the [wave amp=50 freq=2]EVILER[/wave] Pirated PHotoshop Peter!"
 		},
 		{
 			"character": "character-1627719882.json",
@@ -120,7 +137,7 @@
 			"character": "character-1627718828.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Anyways!!\nWe are here to announce our plans of WORLD DOMINATION!!1!"
+			"text": "Anyways!!\nWe are here to announce our plans of [shake rate=5 level=10]WORLD DOMINATION[/shake]!!1!"
 		},
 		{
 			"character": "character-1627718828.json",
@@ -150,7 +167,7 @@
 			"character": "character-1627718828.json",
 			"event_id": "dialogic_001",
 			"portrait": "Evil",
-			"text": "And NOBODY will be able to stop us!!"
+			"text": "And [shake rate=5 level=10]NOBODY[/shake] will be able to stop us!!"
 		},
 		{
 			"character": "character-1627691111.json",
@@ -235,6 +252,15 @@
 			"event_id": "dialogic_001",
 			"portrait": "Default",
 			"text": "ok"
+		},
+		{
+			"audio_bus": "Master",
+			"background-music": "stop",
+			"event_id": "dialogic_031",
+			"event_name": "BackgroundMusic",
+			"fade_length": 1,
+			"file": "",
+			"volume": 0
 		},
 		{
 			"action": "leaveall",

@@ -71,6 +71,7 @@ func _process(delta):
 			target_orientation = 0
 			moving = "NULL"
 			$puzzle.rotation_degrees = 0
+			$fixed_point.rotation_degrees = 0
 			$fixed_point/pistachio_bag.position = Vector2(-178, -192)
 		elif Input.is_action_just_pressed("left"):
 			moving = "ccw"

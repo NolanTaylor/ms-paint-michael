@@ -18,7 +18,7 @@
 			"character": "character-1627978943.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "WELCOME!!!!!"
+			"text": "[shake rate=5 level=10]WELCOME!!![/shake]"
 		},
 		{
 			"action": "join",
@@ -50,7 +50,7 @@
 			"character": "character-1627691111.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "do you know graphicgale gareth?"
+			"text": "do you know graphicsgale gareth?"
 		},
 		{
 			"character": "character-1627978943.json",
@@ -68,7 +68,7 @@
 			"character": "character-1627978943.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "WE MADE CASUAL PLANS TO KILL GOD THIS SUNDAY!!!!!"
+			"text": "WE MADE CASUAL PLANS TO [shake rate=5 level=10]KILL GOD[/shake] THIS SUNDAY!!!!!"
 		},
 		{
 			"character": "character-1627691111.json",

@@ -90,6 +90,13 @@
 			"question": "Would you like me to keep going?"
 		},
 		{
+			"choice": "yes, please",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
 			"character": "character-1628030516.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -146,13 +153,6 @@
 		},
 		{
 			"event_id": "dialogic_013"
-		},
-		{
-			"choice": "yes, please",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
 		},
 		{
 			"choice": "nah, i've got it",
