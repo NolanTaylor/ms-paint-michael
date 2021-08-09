@@ -309,12 +309,12 @@
 		},
 		{
 			"audio_bus": "Master",
-			"background-music": "stop",
+			"background-music": "play",
 			"event_id": "dialogic_031",
 			"event_name": "BackgroundMusic",
-			"fade_length": 1,
-			"file": "",
-			"volume": 0
+			"fade_length": 6,
+			"file": "res://Assets/Audio/action_and_adventure.mp3",
+			"volume": -12
 		},
 		{
 			"character": "character-1627874810.json",

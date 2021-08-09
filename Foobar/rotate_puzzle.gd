@@ -37,7 +37,7 @@ func _process(delta):
 	
 	if moving == "NULL":
 		$fixed_point/pistachio_bag.move_and_slide( \
-			Vector2(0, 128), Vector2(0, -1))
+			Vector2(0, 156), Vector2(0, -1))
 	else:
 		$fixed_point/pistachio_bag.move_and_collide(Vector2(0, 0))
 	

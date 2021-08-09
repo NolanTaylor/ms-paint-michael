@@ -21,7 +21,7 @@ extents = Vector2( 62.2729, 10.2587 )
 extents = Vector2( 60.1606, 9.85361 )
 
 [sub_resource type="RectangleShape2D" id=6]
-extents = Vector2( 11.7274, 72.9623 )
+extents = Vector2( 11.7274, 69.1043 )
 
 [sub_resource type="RectangleShape2D" id=7]
 extents = Vector2( 9.89191, 59.5304 )
@@ -80,7 +80,7 @@ position = Vector2( 438.284, 267.594 )
 shape = SubResource( 5 )
 
 [node name="collisionShape7" type="CollisionShape2D" parent="puzzle/walls"]
-position = Vector2( 386.225, 455.139 )
+position = Vector2( 386.892, 459.811 )
 shape = SubResource( 6 )
 
 [node name="collisionShape8" type="CollisionShape2D" parent="puzzle/walls"]

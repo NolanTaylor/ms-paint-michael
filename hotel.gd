@@ -451,7 +451,7 @@ func door_205_e() -> void:
 	$door.play()
 	$root_mspm.position = $popups/door_205/pos.global_position
 	tween_out.interpolate_property($music, "volume_db", \
-			0.0, -80, 2.0, 1, Tween.EASE_IN, 0)
+			-80, 0.0, 2.0, 1, Tween.EASE_IN, 0)
 	tween_out.start()
 	if $kylie_shake.visible or $kylie_sad.visible:
 		tween_out.interpolate_property($traviata, "volume_db", \

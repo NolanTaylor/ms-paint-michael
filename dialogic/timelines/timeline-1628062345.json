@@ -206,7 +206,19 @@
 			"character": "character-1627693528.json",
 			"event_id": "dialogic_001",
 			"portrait": "Smile",
-			"text": "Pffffft\nOkay\nThanks Microsoft Paint Michael"
+			"text": "Pffffft\nOkay"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "I guess you get a pass this time"
+		},
+		{
+			"character": "character-1627693528.json",
+			"event_id": "dialogic_001",
+			"portrait": "Smile",
+			"text": "But only because it was adapted from Verdi\nThanks Microsoft Paint Michael"
 		},
 		{
 			"character": "character-1627691111.json",

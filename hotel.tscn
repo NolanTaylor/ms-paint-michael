@@ -1,4 +1,4 @@
-[gd_scene load_steps=112 format=2]
+[gd_scene load_steps=114 format=2]
 
 [ext_resource path="res://hotel.gd" type="Script" id=1]
 [ext_resource path="res://Assets/krita_kylie.png" type="Texture" id=2]
@@ -23,8 +23,10 @@
 [ext_resource path="res://Assets/key.png" type="Texture" id=21]
 [ext_resource path="res://Assets/Audio/ding.wav" type="AudioStream" id=22]
 [ext_resource path="res://Assets/Audio/brindisi.mp3" type="AudioStream" id=23]
+[ext_resource path="res://Assets/without_w.png" type="Texture" id=24]
 [ext_resource path="res://Assets/Audio/lounge.mp3" type="AudioStream" id=25]
 [ext_resource path="res://Assets/Audio/door.wav" type="AudioStream" id=26]
+[ext_resource path="res://Assets/without_s.png" type="Texture" id=27]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )
@@ -423,7 +425,7 @@ visible = false
 position = Vector2( 2517.51, -724.921 )
 frames = SubResource( 16 )
 animation = "idle"
-frame = 5
+frame = 4
 playing = true
 
 [node name="graphicsgale_gareth" type="AnimatedSprite" parent="."]
@@ -446,6 +448,7 @@ playing = true
 position = Vector2( 1581.68, -132.405 )
 frames = SubResource( 30 )
 animation = "idle"
+frame = 1
 playing = true
 
 [node name="notepad++_natalie" type="Sprite" parent="."]
@@ -558,7 +561,7 @@ shape = SubResource( 35 )
 position = Vector2( 2633.36, -2382.15 )
 
 [node name="collisionShape" type="CollisionShape2D" parent="trigger"]
-position = Vector2( 0, -30.2383 )
+position = Vector2( 0, -15.2383 )
 shape = SubResource( 36 )
 
 [node name="trigger2" type="Area2D" parent="."]
@@ -656,7 +659,7 @@ position = Vector2( 0, 16 )
 [node name="keys" type="Sprite" parent="elevator1b"]
 visible = false
 position = Vector2( 38.6326, -190.431 )
-texture = ExtResource( 7 )
+texture = ExtResource( 27 )
 
 [node name="elevator0" type="AnimatedSprite" parent="."]
 position = Vector2( 815.839, 463.052 )
@@ -698,7 +701,7 @@ position = Vector2( 0, 16 )
 [node name="keys" type="Sprite" parent="elevator2"]
 visible = false
 position = Vector2( 38.6326, -190.431 )
-texture = ExtResource( 7 )
+texture = ExtResource( 24 )
 
 [node name="popups" type="Node" parent="."]
 
@@ -824,7 +827,7 @@ __meta__ = {
 shape = SubResource( 50 )
 
 [node name="blast_2" parent="popups" instance=ExtResource( 6 )]
-position = Vector2( 2990.85, -2307.8 )
+position = Vector2( 3001.1, -2298.56 )
 active = false
 
 [node name="area" type="Area2D" parent="popups/blast_2"]
@@ -1244,7 +1247,7 @@ shape = SubResource( 74 )
 position = Vector2( -848.912, -2100.98 )
 
 [node name="pos" type="Node2D" parent="popups/room_403"]
-position = Vector2( 3187.87, 138.637 )
+position = Vector2( 3188.5, 151.637 )
 
 [node name="area" type="Area2D" parent="popups/room_403"]
 
@@ -1253,7 +1256,7 @@ position = Vector2( 5.24414, 179.048 )
 shape = SubResource( 74 )
 
 [node name="door_403" parent="popups" instance=ExtResource( 6 )]
-position = Vector2( 2334.19, -2142.32 )
+position = Vector2( 2336.71, -2124.68 )
 
 [node name="pos" type="Node2D" parent="popups/door_403"]
 position = Vector2( -3183.16, 214.98 )
@@ -1261,7 +1264,7 @@ position = Vector2( -3183.16, 214.98 )
 [node name="area" type="Area2D" parent="popups/door_403"]
 
 [node name="collisionShape" type="CollisionShape2D" parent="popups/door_403/area"]
-position = Vector2( 5.24414, 179.048 )
+position = Vector2( 3.98413, 177.158 )
 shape = SubResource( 74 )
 
 [node name="wc_306" parent="popups" instance=ExtResource( 6 )]
@@ -1434,11 +1437,11 @@ position = Vector2( 2107.89, -2125.25 )
 shape = SubResource( 79 )
 
 [node name="collisionShape28" type="CollisionShape2D" parent="walls"]
-position = Vector2( 2177.73, -2139.54 )
+position = Vector2( 2179.06, -2122.19 )
 shape = SubResource( 79 )
 
 [node name="collisionShape29" type="CollisionShape2D" parent="walls"]
-position = Vector2( 3253.41, -2147.87 )
+position = Vector2( 3253.41, -2126.87 )
 shape = SubResource( 79 )
 
 [node name="collisionShape30" type="CollisionShape2D" parent="walls"]
